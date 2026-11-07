@@ -1,0 +1,677 @@
+[1m[92m     Locking[0m 1 package to highest compatible version
+[1m[92m   Compiling[0m libc v0.2.190 (/home/ubuntu/work/horizon-ps3-continuation-2026-11-07/third_party/libc)
+[1m[92m   Compiling[0m libc v0.2.191
+[1m[92m   Compiling[0m addr2line v0.27.1
+[1m[91merror[0m[1m: unsupported target[0m
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:1040:9
+     [1m[94m|[0m
+[1m[94m1040[0m [1m[94m|[0m         compile_error!("unsupported target");
+     [1m[94m|[0m         [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+
+[1m[91merror[0m[1m: unsupported target[0m
+  [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:28:9
+   [1m[94m|[0m
+[1m[94m28[0m [1m[94m|[0m         compile_error!("unsupported target");
+   [1m[94m|[0m         [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `clock_t` in the crate root[0m
+   [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs:224:31
+    [1m[94m|[0m
+[1m[94m224[0m [1m[94m|[0m         pub tms_utime: crate::clock_t,
+    [1m[94m|[0m                               [1m[91m^^^^^^^[0m [1m[91mnot found in the crate root[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named type alias `clockid_t` defined here
+   [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:10:9
+    [1m[94m|[0m
+[1m[94m 10[0m [1m[94m|[0m         pub type clockid_t = c_ulong;
+    [1m[94m|[0m         [1m[92m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[96mhelp[0m: a type alias with a similar name exists
+    [1m[94m|[0m
+[1m[94m224[0m [1m[94m| [0m        pub tms_utime: crate::clock[92mid[0m_t,
+    [1m[94m|[0m                                    [92m++[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `clock_t` in the crate root[0m
+   [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs:225:31
+    [1m[94m|[0m
+[1m[94m225[0m [1m[94m|[0m         pub tms_stime: crate::clock_t,
+    [1m[94m|[0m                               [1m[91m^^^^^^^[0m [1m[91mnot found in the crate root[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named type alias `clockid_t` defined here
+   [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:10:9
+    [1m[94m|[0m
+[1m[94m 10[0m [1m[94m|[0m         pub type clockid_t = c_ulong;
+    [1m[94m|[0m         [1m[92m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[96mhelp[0m: a type alias with a similar name exists
+    [1m[94m|[0m
+[1m[94m225[0m [1m[94m| [0m        pub tms_stime: crate::clock[92mid[0m_t,
+    [1m[94m|[0m                                    [92m++[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `clock_t` in the crate root[0m
+   [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs:226:32
+    [1m[94m|[0m
+[1m[94m226[0m [1m[94m|[0m         pub tms_cutime: crate::clock_t,
+    [1m[94m|[0m                                [1m[91m^^^^^^^[0m [1m[91mnot found in the crate root[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named type alias `clockid_t` defined here
+   [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:10:9
+    [1m[94m|[0m
+[1m[94m 10[0m [1m[94m|[0m         pub type clockid_t = c_ulong;
+    [1m[94m|[0m         [1m[92m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[96mhelp[0m: a type alias with a similar name exists
+    [1m[94m|[0m
+[1m[94m226[0m [1m[94m| [0m        pub tms_cutime: crate::clock[92mid[0m_t,
+    [1m[94m|[0m                                     [92m++[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `clock_t` in the crate root[0m
+   [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs:227:32
+    [1m[94m|[0m
+[1m[94m227[0m [1m[94m|[0m         pub tms_cstime: crate::clock_t,
+    [1m[94m|[0m                                [1m[91m^^^^^^^[0m [1m[91mnot found in the crate root[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named type alias `clockid_t` defined here
+   [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:10:9
+    [1m[94m|[0m
+[1m[94m 10[0m [1m[94m|[0m         pub type clockid_t = c_ulong;
+    [1m[94m|[0m         [1m[92m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[96mhelp[0m: a type alias with a similar name exists
+    [1m[94m|[0m
+[1m[94m227[0m [1m[94m| [0m        pub tms_cstime: crate::clock[92mid[0m_t,
+    [1m[94m|[0m                                     [92m++[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `clock_t` in the crate root[0m
+   [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs:224:31
+    [1m[94m|[0m
+[1m[94m224[0m [1m[94m|[0m         pub tms_utime: crate::clock_t,
+    [1m[94m|[0m                               [1m[91m^^^^^^^[0m [1m[91mnot found in the crate root[0m
+    [1m[94m|[0m
+   [1m[94m::: [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/macros.rs:301:21
+    [1m[94m|[0m
+[1m[94m301[0m [1m[94m|[0m                     ::core::clone::Clone,
+    [1m[94m|[0m                     [1m[94m--------------------[0m [1m[94min this derive macro[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named type alias `clockid_t` defined here
+   [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:10:9
+    [1m[94m|[0m
+[1m[94m 10[0m [1m[94m|[0m         pub type clockid_t = c_ulong;
+    [1m[94m|[0m         [1m[92m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[96mhelp[0m: a type alias with a similar name exists
+    [1m[94m|[0m
+[1m[94m224[0m [1m[94m| [0m        pub tms_utime: crate::clock[92mid[0m_t,
+    [1m[94m|[0m                                    [92m++[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `clock_t` in the crate root[0m
+   [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs:225:31
+    [1m[94m|[0m
+[1m[94m225[0m [1m[94m|[0m         pub tms_stime: crate::clock_t,
+    [1m[94m|[0m                               [1m[91m^^^^^^^[0m [1m[91mnot found in the crate root[0m
+    [1m[94m|[0m
+   [1m[94m::: [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/macros.rs:301:21
+    [1m[94m|[0m
+[1m[94m301[0m [1m[94m|[0m                     ::core::clone::Clone,
+    [1m[94m|[0m                     [1m[94m--------------------[0m [1m[94min this derive macro[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named type alias `clockid_t` defined here
+   [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:10:9
+    [1m[94m|[0m
+[1m[94m 10[0m [1m[94m|[0m         pub type clockid_t = c_ulong;
+    [1m[94m|[0m         [1m[92m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[96mhelp[0m: a type alias with a similar name exists
+    [1m[94m|[0m
+[1m[94m225[0m [1m[94m| [0m        pub tms_stime: crate::clock[92mid[0m_t,
+    [1m[94m|[0m                                    [92m++[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `clock_t` in the crate root[0m
+   [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs:226:32
+    [1m[94m|[0m
+[1m[94m226[0m [1m[94m|[0m         pub tms_cutime: crate::clock_t,
+    [1m[94m|[0m                                [1m[91m^^^^^^^[0m [1m[91mnot found in the crate root[0m
+    [1m[94m|[0m
+   [1m[94m::: [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/macros.rs:301:21
+    [1m[94m|[0m
+[1m[94m301[0m [1m[94m|[0m                     ::core::clone::Clone,
+    [1m[94m|[0m                     [1m[94m--------------------[0m [1m[94min this derive macro[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named type alias `clockid_t` defined here
+   [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:10:9
+    [1m[94m|[0m
+[1m[94m 10[0m [1m[94m|[0m         pub type clockid_t = c_ulong;
+    [1m[94m|[0m         [1m[92m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[96mhelp[0m: a type alias with a similar name exists
+    [1m[94m|[0m
+[1m[94m226[0m [1m[94m| [0m        pub tms_cutime: crate::clock[92mid[0m_t,
+    [1m[94m|[0m                                     [92m++[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `clock_t` in the crate root[0m
+   [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs:227:32
+    [1m[94m|[0m
+[1m[94m227[0m [1m[94m|[0m         pub tms_cstime: crate::clock_t,
+    [1m[94m|[0m                                [1m[91m^^^^^^^[0m [1m[91mnot found in the crate root[0m
+    [1m[94m|[0m
+   [1m[94m::: [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/macros.rs:301:21
+    [1m[94m|[0m
+[1m[94m301[0m [1m[94m|[0m                     ::core::clone::Clone,
+    [1m[94m|[0m                     [1m[94m--------------------[0m [1m[94min this derive macro[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named type alias `clockid_t` defined here
+   [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:10:9
+    [1m[94m|[0m
+[1m[94m 10[0m [1m[94m|[0m         pub type clockid_t = c_ulong;
+    [1m[94m|[0m         [1m[92m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[96mhelp[0m: a type alias with a similar name exists
+    [1m[94m|[0m
+[1m[94m227[0m [1m[94m| [0m        pub tms_cstime: crate::clock[92mid[0m_t,
+    [1m[94m|[0m                                     [92m++[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `wchar_t` in this scope[0m
+   [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs:828:31
+    [1m[94m|[0m
+[1m[94m828[0m [1m[94m|[0m     pub fn wcslen(buf: *const wchar_t) -> size_t;
+    [1m[94m|[0m                               [1m[91m^^^^^^^[0m [1m[91mnot found in this scope[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `wchar_t` in this scope[0m
+   [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs:829:52
+    [1m[94m|[0m
+[1m[94m829[0m [1m[94m|[0m [1m[94m...[0mchar, src: *const wchar_t, n: size_t) -> size_t;
+    [1m[94m|[0m                      [1m[91m^^^^^^^[0m [1m[91mnot found in this scope[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `wchar_t` in this scope[0m
+   [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs:832:31
+    [1m[94m|[0m
+[1m[94m832[0m [1m[94m|[0m     pub fn wmemchr(cx: *const wchar_t, c: wchar_t, n: size_t) -> *mut w[1m[94m...[0m
+    [1m[94m|[0m                               [1m[91m^^^^^^^[0m [1m[91mnot found in this scope[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `wchar_t` in this scope[0m
+   [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs:832:43
+    [1m[94m|[0m
+[1m[94m832[0m [1m[94m|[0m [1m[94m...[0mconst wchar_t, c: wchar_t, n: size_t) -> *mut wchar_t;
+    [1m[94m|[0m                      [1m[91m^^^^^^^[0m [1m[91mnot found in this scope[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `wchar_t` in this scope[0m
+   [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs:832:71
+    [1m[94m|[0m
+[1m[94m832[0m [1m[94m|[0m [1m[94m...[0m: size_t) -> *mut wchar_t;
+    [1m[94m|[0m                      [1m[91m^^^^^^^[0m [1m[91mnot found in this scope[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr` in this scope[0m
+   [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs:884:51
+    [1m[94m|[0m
+[1m[94m884[0m [1m[94m|[0m [1m[94m...[0m, address: *const sockaddr, len: socklen_t) -> c_int;
+    [1m[94m|[0m                      [1m[91m^^^^^^^^[0m [1m[91mnot found in this scope[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr` in this scope[0m
+   [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs:898:48
+    [1m[94m|[0m
+[1m[94m898[0m [1m[94m|[0m [1m[94m...[0mnt, address: *mut sockaddr, address_len: *mut socklen_t) -> c_int;
+    [1m[94m|[0m                      [1m[91m^^^^^^^^[0m [1m[91mnot found in this scope[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr` in this scope[0m
+   [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs:906:53
+    [1m[94m|[0m
+[1m[94m906[0m [1m[94m|[0m [1m[94m...[0mnt, address: *mut sockaddr, address_len: *mut socklen_t)
+    [1m[94m|[0m                      [1m[91m^^^^^^^^[0m [1m[91mnot found in this scope[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr` in this scope[0m
+   [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs:915:53
+    [1m[94m|[0m
+[1m[94m915[0m [1m[94m|[0m [1m[94m...[0mnt, address: *mut sockaddr, address_len: *mut socklen_t)
+    [1m[94m|[0m                      [1m[91m^^^^^^^^[0m [1m[91mnot found in this scope[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr` in this scope[0m
+   [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs:955:22
+    [1m[94m|[0m
+[1m[94m955[0m [1m[94m|[0m         addr: *const sockaddr,
+    [1m[94m|[0m                      [1m[91m^^^^^^^^[0m [1m[91mnot found in this scope[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `off_t` in this scope[0m
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs:1201:37
+     [1m[94m|[0m
+[1m[94m1201[0m [1m[94m|[0m     pub fn lseek(fd: c_int, offset: off_t, whence: c_int) -> off_t;
+     [1m[94m|[0m                                     [1m[91m^^^^^[0m [1m[91mnot found in this scope[0m
+     [1m[94m|[0m
+[1m[92mnote[0m: similarly named type alias `loff_t` defined here
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:36:1
+     [1m[94m|[0m
+[1m[94m  36[0m [1m[94m|[0m pub type loff_t = c_longlong;
+     [1m[94m|[0m [1m[92m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:18:18
+     [1m[94m|[0m
+[1m[94m  15[0m [1m[94m|[0m     if #[cfg(any(target_os = "espidf", target_os = "vita"))] {
+     [1m[94m|[0m                 [1m[94m------------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m...[0m
+[1m[94m  18[0m [1m[94m|[0m         pub type off_t = c_long;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:22:18
+     [1m[94m|[0m
+[1m[94m  19[0m [1m[94m|[0m     } else if #[cfg(target_os = "rtems")] {
+     [1m[94m|[0m                     [1m[94m-------------------[0m [1m[94mthe item is gated behind the `rtems` feature[0m
+[1m[94m...[0m
+[1m[94m  22[0m [1m[94m|[0m         pub type off_t = i64;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:26:18
+     [1m[94m|[0m
+[1m[94m  23[0m [1m[94m|[0m     } else if #[cfg(any(target_arch = "arm", target_arch = "powerpc"))] {
+     [1m[94m|[0m                        [1m[94m----------------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m...[0m
+[1m[94m  26[0m [1m[94m|[0m         pub type off_t = i64;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[96mhelp[0m: a type alias with a similar name exists
+     [1m[94m|[0m
+[1m[94m1201[0m [1m[94m| [0m    pub fn lseek(fd: c_int, offset: [92ml[0moff_t, whence: c_int) -> off_t;
+     [1m[94m|[0m                                     [92m+[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `off_t` in this scope[0m
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs:1201:62
+     [1m[94m|[0m
+[1m[94m1201[0m [1m[94m|[0m     pub fn lseek(fd: c_int, offset: off_t, whence: c_int) -> off_t;
+     [1m[94m|[0m                                                              [1m[91m^^^^^[0m [1m[91mnot found in this scope[0m
+     [1m[94m|[0m
+[1m[92mnote[0m: similarly named type alias `loff_t` defined here
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:36:1
+     [1m[94m|[0m
+[1m[94m  36[0m [1m[94m|[0m pub type loff_t = c_longlong;
+     [1m[94m|[0m [1m[92m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:18:18
+     [1m[94m|[0m
+[1m[94m  15[0m [1m[94m|[0m     if #[cfg(any(target_os = "espidf", target_os = "vita"))] {
+     [1m[94m|[0m                 [1m[94m------------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m...[0m
+[1m[94m  18[0m [1m[94m|[0m         pub type off_t = c_long;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:22:18
+     [1m[94m|[0m
+[1m[94m  19[0m [1m[94m|[0m     } else if #[cfg(target_os = "rtems")] {
+     [1m[94m|[0m                     [1m[94m-------------------[0m [1m[94mthe item is gated behind the `rtems` feature[0m
+[1m[94m...[0m
+[1m[94m  22[0m [1m[94m|[0m         pub type off_t = i64;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:26:18
+     [1m[94m|[0m
+[1m[94m  23[0m [1m[94m|[0m     } else if #[cfg(any(target_arch = "arm", target_arch = "powerpc"))] {
+     [1m[94m|[0m                        [1m[94m----------------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m...[0m
+[1m[94m  26[0m [1m[94m|[0m         pub type off_t = i64;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[96mhelp[0m: a type alias with a similar name exists
+     [1m[94m|[0m
+[1m[94m1201[0m [1m[94m| [0m    pub fn lseek(fd: c_int, offset: off_t, whence: c_int) -> [92ml[0moff_t;
+     [1m[94m|[0m                                                              [92m+[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `off_t` in this scope[0m
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs:1271:70
+     [1m[94m|[0m
+[1m[94m1271[0m [1m[94m|[0m [1m[94m...[0mt: size_t, offset: off_t) -> ssize_t;
+     [1m[94m|[0m                       [1m[91m^^^^^[0m [1m[91mnot found in this scope[0m
+     [1m[94m|[0m
+[1m[92mnote[0m: similarly named type alias `loff_t` defined here
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:36:1
+     [1m[94m|[0m
+[1m[94m  36[0m [1m[94m|[0m pub type loff_t = c_longlong;
+     [1m[94m|[0m [1m[92m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:18:18
+     [1m[94m|[0m
+[1m[94m  15[0m [1m[94m|[0m     if #[cfg(any(target_os = "espidf", target_os = "vita"))] {
+     [1m[94m|[0m                 [1m[94m------------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m...[0m
+[1m[94m  18[0m [1m[94m|[0m         pub type off_t = c_long;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:22:18
+     [1m[94m|[0m
+[1m[94m  19[0m [1m[94m|[0m     } else if #[cfg(target_os = "rtems")] {
+     [1m[94m|[0m                     [1m[94m-------------------[0m [1m[94mthe item is gated behind the `rtems` feature[0m
+[1m[94m...[0m
+[1m[94m  22[0m [1m[94m|[0m         pub type off_t = i64;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:26:18
+     [1m[94m|[0m
+[1m[94m  23[0m [1m[94m|[0m     } else if #[cfg(any(target_arch = "arm", target_arch = "powerpc"))] {
+     [1m[94m|[0m                        [1m[94m----------------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m...[0m
+[1m[94m  26[0m [1m[94m|[0m         pub type off_t = i64;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[96mhelp[0m: a type alias with a similar name exists
+     [1m[94m|[0m
+[1m[94m1271[0m [1m[94m| [0m    pub fn pread(fd: c_int, buf: *mut c_void, count: size_t, offset: [92ml[0moff_t) -> ssize_t;
+     [1m[94m|[0m                                                                      [92m+[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `off_t` in this scope[0m
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs:1277:73
+     [1m[94m|[0m
+[1m[94m1277[0m [1m[94m|[0m [1m[94m...[0mt: size_t, offset: off_t) -> ssize_t;
+     [1m[94m|[0m                       [1m[91m^^^^^[0m [1m[91mnot found in this scope[0m
+     [1m[94m|[0m
+[1m[92mnote[0m: similarly named type alias `loff_t` defined here
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:36:1
+     [1m[94m|[0m
+[1m[94m  36[0m [1m[94m|[0m pub type loff_t = c_longlong;
+     [1m[94m|[0m [1m[92m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:18:18
+     [1m[94m|[0m
+[1m[94m  15[0m [1m[94m|[0m     if #[cfg(any(target_os = "espidf", target_os = "vita"))] {
+     [1m[94m|[0m                 [1m[94m------------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m...[0m
+[1m[94m  18[0m [1m[94m|[0m         pub type off_t = c_long;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:22:18
+     [1m[94m|[0m
+[1m[94m  19[0m [1m[94m|[0m     } else if #[cfg(target_os = "rtems")] {
+     [1m[94m|[0m                     [1m[94m-------------------[0m [1m[94mthe item is gated behind the `rtems` feature[0m
+[1m[94m...[0m
+[1m[94m  22[0m [1m[94m|[0m         pub type off_t = i64;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:26:18
+     [1m[94m|[0m
+[1m[94m  23[0m [1m[94m|[0m     } else if #[cfg(any(target_arch = "arm", target_arch = "powerpc"))] {
+     [1m[94m|[0m                        [1m[94m----------------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m...[0m
+[1m[94m  26[0m [1m[94m|[0m         pub type off_t = i64;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[96mhelp[0m: a type alias with a similar name exists
+     [1m[94m|[0m
+[1m[94m1277[0m [1m[94m| [0m    pub fn pwrite(fd: c_int, buf: *const c_void, count: size_t, offset: [92ml[0moff_t) -> ssize_t;
+     [1m[94m|[0m                                                                         [92m+[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `off_t` in this scope[0m
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs:1311:17
+     [1m[94m|[0m
+[1m[94m1311[0m [1m[94m|[0m         offset: off_t,
+     [1m[94m|[0m                 [1m[91m^^^^^[0m [1m[91mnot found in this scope[0m
+     [1m[94m|[0m
+[1m[92mnote[0m: similarly named type alias `loff_t` defined here
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:36:1
+     [1m[94m|[0m
+[1m[94m  36[0m [1m[94m|[0m pub type loff_t = c_longlong;
+     [1m[94m|[0m [1m[92m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:18:18
+     [1m[94m|[0m
+[1m[94m  15[0m [1m[94m|[0m     if #[cfg(any(target_os = "espidf", target_os = "vita"))] {
+     [1m[94m|[0m                 [1m[94m------------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m...[0m
+[1m[94m  18[0m [1m[94m|[0m         pub type off_t = c_long;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:22:18
+     [1m[94m|[0m
+[1m[94m  19[0m [1m[94m|[0m     } else if #[cfg(target_os = "rtems")] {
+     [1m[94m|[0m                     [1m[94m-------------------[0m [1m[94mthe item is gated behind the `rtems` feature[0m
+[1m[94m...[0m
+[1m[94m  22[0m [1m[94m|[0m         pub type off_t = i64;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:26:18
+     [1m[94m|[0m
+[1m[94m  23[0m [1m[94m|[0m     } else if #[cfg(any(target_arch = "arm", target_arch = "powerpc"))] {
+     [1m[94m|[0m                        [1m[94m----------------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m...[0m
+[1m[94m  26[0m [1m[94m|[0m         pub type off_t = i64;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[96mhelp[0m: a type alias with a similar name exists
+     [1m[94m|[0m
+[1m[94m1311[0m [1m[94m| [0m        offset: [92ml[0moff_t,
+     [1m[94m|[0m                 [92m+[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `off_t` in this scope[0m
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs:1360:50
+     [1m[94m|[0m
+[1m[94m1360[0m [1m[94m|[0m     pub fn truncate(path: *const c_char, length: off_t) -> c_int;
+     [1m[94m|[0m                                                  [1m[91m^^^^^[0m [1m[91mnot found in this scope[0m
+     [1m[94m|[0m
+[1m[92mnote[0m: similarly named type alias `loff_t` defined here
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:36:1
+     [1m[94m|[0m
+[1m[94m  36[0m [1m[94m|[0m pub type loff_t = c_longlong;
+     [1m[94m|[0m [1m[92m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:18:18
+     [1m[94m|[0m
+[1m[94m  15[0m [1m[94m|[0m     if #[cfg(any(target_os = "espidf", target_os = "vita"))] {
+     [1m[94m|[0m                 [1m[94m------------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m...[0m
+[1m[94m  18[0m [1m[94m|[0m         pub type off_t = c_long;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:22:18
+     [1m[94m|[0m
+[1m[94m  19[0m [1m[94m|[0m     } else if #[cfg(target_os = "rtems")] {
+     [1m[94m|[0m                     [1m[94m-------------------[0m [1m[94mthe item is gated behind the `rtems` feature[0m
+[1m[94m...[0m
+[1m[94m  22[0m [1m[94m|[0m         pub type off_t = i64;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:26:18
+     [1m[94m|[0m
+[1m[94m  23[0m [1m[94m|[0m     } else if #[cfg(any(target_arch = "arm", target_arch = "powerpc"))] {
+     [1m[94m|[0m                        [1m[94m----------------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m...[0m
+[1m[94m  26[0m [1m[94m|[0m         pub type off_t = i64;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[96mhelp[0m: a type alias with a similar name exists
+     [1m[94m|[0m
+[1m[94m1360[0m [1m[94m| [0m    pub fn truncate(path: *const c_char, length: [92ml[0moff_t) -> c_int;
+     [1m[94m|[0m                                                  [92m+[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `off_t` in this scope[0m
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs:1362:41
+     [1m[94m|[0m
+[1m[94m1362[0m [1m[94m|[0m     pub fn ftruncate(fd: c_int, length: off_t) -> c_int;
+     [1m[94m|[0m                                         [1m[91m^^^^^[0m [1m[91mnot found in this scope[0m
+     [1m[94m|[0m
+[1m[92mnote[0m: similarly named type alias `loff_t` defined here
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:36:1
+     [1m[94m|[0m
+[1m[94m  36[0m [1m[94m|[0m pub type loff_t = c_longlong;
+     [1m[94m|[0m [1m[92m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:18:18
+     [1m[94m|[0m
+[1m[94m  15[0m [1m[94m|[0m     if #[cfg(any(target_os = "espidf", target_os = "vita"))] {
+     [1m[94m|[0m                 [1m[94m------------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m...[0m
+[1m[94m  18[0m [1m[94m|[0m         pub type off_t = c_long;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:22:18
+     [1m[94m|[0m
+[1m[94m  19[0m [1m[94m|[0m     } else if #[cfg(target_os = "rtems")] {
+     [1m[94m|[0m                     [1m[94m-------------------[0m [1m[94mthe item is gated behind the `rtems` feature[0m
+[1m[94m...[0m
+[1m[94m  22[0m [1m[94m|[0m         pub type off_t = i64;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:26:18
+     [1m[94m|[0m
+[1m[94m  23[0m [1m[94m|[0m     } else if #[cfg(any(target_arch = "arm", target_arch = "powerpc"))] {
+     [1m[94m|[0m                        [1m[94m----------------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m...[0m
+[1m[94m  26[0m [1m[94m|[0m         pub type off_t = i64;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[96mhelp[0m: a type alias with a similar name exists
+     [1m[94m|[0m
+[1m[94m1362[0m [1m[94m| [0m    pub fn ftruncate(fd: c_int, length: [92ml[0moff_t) -> c_int;
+     [1m[94m|[0m                                         [92m+[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `clock_t` in the crate root[0m
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs:1375:50
+     [1m[94m|[0m
+[1m[94m1375[0m [1m[94m|[0m     pub fn times(buf: *mut crate::tms) -> crate::clock_t;
+     [1m[94m|[0m                                                  [1m[91m^^^^^^^[0m [1m[91mnot found in the crate root[0m
+     [1m[94m|[0m
+[1m[92mnote[0m: similarly named type alias `clockid_t` defined here
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:10:9
+     [1m[94m|[0m
+[1m[94m  10[0m [1m[94m|[0m         pub type clockid_t = c_ulong;
+     [1m[94m|[0m         [1m[92m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[96mhelp[0m: a type alias with a similar name exists
+     [1m[94m|[0m
+[1m[94m1375[0m [1m[94m| [0m    pub fn times(buf: *mut crate::tms) -> crate::clock[92mid[0m_t;
+     [1m[94m|[0m                                                       [92m++[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `dev_t` in the crate root[0m
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs:1600:69
+     [1m[94m|[0m
+[1m[94m1600[0m [1m[94m|[0m [1m[94m...[0me_t, dev: crate::dev_t) -> c_int;
+     [1m[94m|[0m                     [1m[91m^^^^^[0m [1m[91mnot found in the crate root[0m
+     [1m[94m|[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:16:18
+     [1m[94m|[0m
+[1m[94m  15[0m [1m[94m|[0m     if #[cfg(any(target_os = "espidf", target_os = "vita"))] {
+     [1m[94m|[0m                 [1m[94m------------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m  16[0m [1m[94m|[0m         pub type dev_t = c_short;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:20:18
+     [1m[94m|[0m
+[1m[94m  19[0m [1m[94m|[0m     } else if #[cfg(target_os = "rtems")] {
+     [1m[94m|[0m                     [1m[94m-------------------[0m [1m[94mthe item is gated behind the `rtems` feature[0m
+[1m[94m  20[0m [1m[94m|[0m         pub type dev_t = u64;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:24:18
+     [1m[94m|[0m
+[1m[94m  23[0m [1m[94m|[0m     } else if #[cfg(any(target_arch = "arm", target_arch = "powerpc"))] {
+     [1m[94m|[0m                        [1m[94m----------------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m  24[0m [1m[94m|[0m         pub type dev_t = u32;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `off_t` in this scope[0m
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs:1701:53
+     [1m[94m|[0m
+[1m[94m1701[0m [1m[94m|[0m [1m[94m...[0mate::FILE, offset: off_t, whence: c_int) -> c_int;
+     [1m[94m|[0m                       [1m[91m^^^^^[0m [1m[91mnot found in this scope[0m
+     [1m[94m|[0m
+[1m[92mnote[0m: similarly named type alias `loff_t` defined here
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:36:1
+     [1m[94m|[0m
+[1m[94m  36[0m [1m[94m|[0m pub type loff_t = c_longlong;
+     [1m[94m|[0m [1m[92m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:18:18
+     [1m[94m|[0m
+[1m[94m  15[0m [1m[94m|[0m     if #[cfg(any(target_os = "espidf", target_os = "vita"))] {
+     [1m[94m|[0m                 [1m[94m------------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m...[0m
+[1m[94m  18[0m [1m[94m|[0m         pub type off_t = c_long;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:22:18
+     [1m[94m|[0m
+[1m[94m  19[0m [1m[94m|[0m     } else if #[cfg(target_os = "rtems")] {
+     [1m[94m|[0m                     [1m[94m-------------------[0m [1m[94mthe item is gated behind the `rtems` feature[0m
+[1m[94m...[0m
+[1m[94m  22[0m [1m[94m|[0m         pub type off_t = i64;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:26:18
+     [1m[94m|[0m
+[1m[94m  23[0m [1m[94m|[0m     } else if #[cfg(any(target_arch = "arm", target_arch = "powerpc"))] {
+     [1m[94m|[0m                        [1m[94m----------------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m...[0m
+[1m[94m  26[0m [1m[94m|[0m         pub type off_t = i64;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[96mhelp[0m: a type alias with a similar name exists
+     [1m[94m|[0m
+[1m[94m1701[0m [1m[94m| [0m    pub fn fseeko(stream: *mut crate::FILE, offset: [92ml[0moff_t, whence: c_int) -> c_int;
+     [1m[94m|[0m                                                     [92m+[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `off_t` in this scope[0m
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs:1703:48
+     [1m[94m|[0m
+[1m[94m1703[0m [1m[94m|[0m     pub fn ftello(stream: *mut crate::FILE) -> off_t;
+     [1m[94m|[0m                                                [1m[91m^^^^^[0m [1m[91mnot found in this scope[0m
+     [1m[94m|[0m
+[1m[92mnote[0m: similarly named type alias `loff_t` defined here
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:36:1
+     [1m[94m|[0m
+[1m[94m  36[0m [1m[94m|[0m pub type loff_t = c_longlong;
+     [1m[94m|[0m [1m[92m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:18:18
+     [1m[94m|[0m
+[1m[94m  15[0m [1m[94m|[0m     if #[cfg(any(target_os = "espidf", target_os = "vita"))] {
+     [1m[94m|[0m                 [1m[94m------------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m...[0m
+[1m[94m  18[0m [1m[94m|[0m         pub type off_t = c_long;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:22:18
+     [1m[94m|[0m
+[1m[94m  19[0m [1m[94m|[0m     } else if #[cfg(target_os = "rtems")] {
+     [1m[94m|[0m                     [1m[94m-------------------[0m [1m[94mthe item is gated behind the `rtems` feature[0m
+[1m[94m...[0m
+[1m[94m  22[0m [1m[94m|[0m         pub type off_t = i64;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:26:18
+     [1m[94m|[0m
+[1m[94m  23[0m [1m[94m|[0m     } else if #[cfg(any(target_arch = "arm", target_arch = "powerpc"))] {
+     [1m[94m|[0m                        [1m[94m----------------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m...[0m
+[1m[94m  26[0m [1m[94m|[0m         pub type off_t = i64;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[96mhelp[0m: a type alias with a similar name exists
+     [1m[94m|[0m
+[1m[94m1703[0m [1m[94m| [0m    pub fn ftello(stream: *mut crate::FILE) -> [92ml[0moff_t;
+     [1m[94m|[0m                                                [92m+[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `off_t` in this scope[0m
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs:2194:46
+     [1m[94m|[0m
+[1m[94m2194[0m [1m[94m|[0m     pub fn lockf(fd: c_int, cmd: c_int, len: off_t) -> c_int;
+     [1m[94m|[0m                                              [1m[91m^^^^^[0m [1m[91mnot found in this scope[0m
+     [1m[94m|[0m
+[1m[92mnote[0m: similarly named type alias `loff_t` defined here
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:36:1
+     [1m[94m|[0m
+[1m[94m  36[0m [1m[94m|[0m pub type loff_t = c_longlong;
+     [1m[94m|[0m [1m[92m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:18:18
+     [1m[94m|[0m
+[1m[94m  15[0m [1m[94m|[0m     if #[cfg(any(target_os = "espidf", target_os = "vita"))] {
+     [1m[94m|[0m                 [1m[94m------------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m...[0m
+[1m[94m  18[0m [1m[94m|[0m         pub type off_t = c_long;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:22:18
+     [1m[94m|[0m
+[1m[94m  19[0m [1m[94m|[0m     } else if #[cfg(target_os = "rtems")] {
+     [1m[94m|[0m                     [1m[94m-------------------[0m [1m[94mthe item is gated behind the `rtems` feature[0m
+[1m[94m...[0m
+[1m[94m  22[0m [1m[94m|[0m         pub type off_t = i64;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/newlib/mod.rs:26:18
+     [1m[94m|[0m
+[1m[94m  23[0m [1m[94m|[0m     } else if #[cfg(any(target_arch = "arm", target_arch = "powerpc"))] {
+     [1m[94m|[0m                        [1m[94m----------------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m...[0m
+[1m[94m  26[0m [1m[94m|[0m         pub type off_t = i64;
+     [1m[94m|[0m                  [1m[92m^^^^^[0m
+[1m[96mhelp[0m: a type alias with a similar name exists
+     [1m[94m|[0m
+[1m[94m2194[0m [1m[94m| [0m    pub fn lockf(fd: c_int, cmd: c_int, len: [92ml[0moff_t) -> c_int;
+     [1m[94m|[0m                                              [92m+[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `wchar_t` in this scope[0m
+    [1m[94m--> [0m/home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs:2281:51
+     [1m[94m|[0m
+[1m[94m2281[0m [1m[94m|[0m [1m[94m...[0mam(ptr: *mut *mut wchar_t, sizeloc: *mut size_t) -> *mut FILE;
+     [1m[94m|[0m                      [1m[91m^^^^^^^[0m [1m[91mnot found in this scope[0m
+
+[1mFor more information about this error, try `rustc --explain E0425`.[0m
+[1m[91merror[0m: could not compile `libc` (lib) due to 33 previous errors
+[1m[33mwarning[0m: build failed, waiting for other jobs to finish...

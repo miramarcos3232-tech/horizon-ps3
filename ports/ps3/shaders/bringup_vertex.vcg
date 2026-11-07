@@ -1,0 +1,13 @@
+void main(
+    float3 vertexPosition : POSITION,
+    float2 vertexTexcoord : TEXCOORD0,
+    float4 vertexColor : COLOR0,
+    out float4 clipPosition : POSITION,
+    out float2 outTexcoord : TEXCOORD0,
+    out float4 outColor : COLOR0
+)
+{
+    clipPosition = float4(vertexPosition, 1.0f);
+    outTexcoord = vertexTexcoord;
+    outColor = vertexColor;
+}

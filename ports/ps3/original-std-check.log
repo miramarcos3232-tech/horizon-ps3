@@ -1,0 +1,758 @@
+[1m[33mwarning[0m[1m: missing `[lints]` to inherit `[workspace.lints]`[0m
+  [1m[94m--> [0mcrates/horizon-prepare/Cargo.toml
+   [1m[94m= [0m[1mnote[0m: `cargo::missing_lints_inheritance` is set to `warn` by default
+[1m[96mhelp[0m: to inherit `workspace.lints, add:
+   [1m[94m|[0m
+[1m[94m23[0m [92m~ [0mpath = "src/main.rs"
+[1m[94m24[0m [92m+ [lints][0m
+[1m[94m25[0m [92m+ workspace = true[0m
+   [1m[94m|[0m
+[1m[96mhelp[0m: to clarify your intent to not inherit, add:
+   [1m[94m|[0m
+[1m[94m23[0m [92m~ [0mpath = "src/main.rs"
+[1m[94m24[0m [92m+ [lints][0m
+   [1m[94m|[0m
+[1m[33mwarning[0m: `horizon-prepare` (manifest) generated 1 warning
+[1m[33mwarning[0m[1m: missing `[lints]` to inherit `[workspace.lints]`[0m
+  [1m[94m--> [0mcrates/horizon-theme/Cargo.toml
+   [1m[94m= [0m[1mnote[0m: `cargo::missing_lints_inheritance` is set to `warn` by default
+[1m[96mhelp[0m: to inherit `workspace.lints, add:
+   [1m[94m|[0m
+[1m[94m 8[0m [92m~ [0m[dependencies]
+[1m[94m 9[0m [92m+ [lints][0m
+[1m[94m10[0m [92m+ workspace = true[0m
+   [1m[94m|[0m
+[1m[96mhelp[0m: to clarify your intent to not inherit, add:
+   [1m[94m|[0m
+[1m[94m 8[0m [92m~ [0m[dependencies]
+[1m[94m 9[0m [92m+ [lints][0m
+   [1m[94m|[0m
+[1m[33mwarning[0m: `horizon-theme` (manifest) generated 1 warning
+[1m[33mwarning[0m[1m: missing `[lints]` to inherit `[workspace.lints]`[0m
+  [1m[94m--> [0mcrates/horizon-bench/Cargo.toml
+   [1m[94m= [0m[1mnote[0m: `cargo::missing_lints_inheritance` is set to `warn` by default
+[1m[96mhelp[0m: to inherit `workspace.lints, add:
+   [1m[94m|[0m
+[1m[94m12[0m [92m~ [0mhorizon-telemetry = { path = "../horizon-telemetry", default-features = false }
+[1m[94m13[0m [92m+ [lints][0m
+[1m[94m14[0m [92m+ workspace = true[0m
+   [1m[94m|[0m
+[1m[96mhelp[0m: to clarify your intent to not inherit, add:
+   [1m[94m|[0m
+[1m[94m12[0m [92m~ [0mhorizon-telemetry = { path = "../horizon-telemetry", default-features = false }
+[1m[94m13[0m [92m+ [lints][0m
+   [1m[94m|[0m
+[1m[33mwarning[0m: `horizon-bench` (manifest) generated 1 warning
+[1m[92m   Compiling[0m compiler_builtins v0.1.160 (/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/compiler-builtins/compiler-builtins)
+[1m[92m   Compiling[0m core v0.0.0 (/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core)
+[1m[92m   Compiling[0m libc v0.2.191
+[1m[92m   Compiling[0m object v0.39.1
+[1m[92m   Compiling[0m std v0.0.0 (/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std)
+[1m[92m   Compiling[0m proc-macro2 v1.0.107
+[1m[92m   Compiling[0m quote v1.0.47
+[1m[92m   Compiling[0m unicode-ident v1.0.26
+[1m[92m   Compiling[0m serde_core v1.0.229
+[1m[92m   Compiling[0m version_check v0.9.5
+[1m[92m   Compiling[0m zmij v1.0.23
+[1m[92m   Compiling[0m libm v0.2.16
+[1m[92m   Compiling[0m thiserror v2.0.21
+[1m[92m   Compiling[0m generic-array v0.14.7
+[1m[92m   Compiling[0m cfg_aliases v0.2.2
+[1m[92m   Compiling[0m serde v1.0.229
+[1m[92m   Compiling[0m serde_json v1.0.151
+[1m[92m   Compiling[0m find-msvc-tools v0.1.14
+[1m[92m   Compiling[0m shlex v2.0.1
+[1m[92m   Compiling[0m syn v3.0.6
+[1m[92m   Compiling[0m syn v2.0.119
+[1m[92m   Compiling[0m crc32fast v1.5.2
+[1m[92m   Compiling[0m cc v1.6.0
+[1m[92m   Compiling[0m autocfg v1.5.1
+[1m[92m   Compiling[0m zerocopy v0.8.60
+[1m[92m   Compiling[0m icu_properties_data v2.3.0
+[1m[92m   Compiling[0m num-traits v0.2.19
+[1m[92m   Compiling[0m icu_normalizer_data v2.3.0
+[1m[92m   Compiling[0m naga v30.0.1 (/home/ubuntu/horizon-main/third_party/naga)
+[1m[92m   Compiling[0m rustversion v1.0.23
+[1m[92m   Compiling[0m horizon-world v0.1.0 (/home/ubuntu/horizon-main/crates/horizon-world)
+[1m[92m   Compiling[0m getrandom v0.3.4
+[1m[92m   Compiling[0m encoding_rs v0.8.42
+[1m[92m   Compiling[0m ring v0.17.14
+[1m[92m   Compiling[0m synstructure v0.14.0
+[1m[92m   Compiling[0m rustls v0.23.46
+[1m[92m   Compiling[0m serde_derive v1.0.229
+[1m[92m   Compiling[0m thiserror-impl v2.0.21
+[1m[92m   Compiling[0m zerofrom-derive v0.1.8
+[1m[92m   Compiling[0m yoke-derive v0.8.4
+[1m[92m   Compiling[0m zerovec-derive v0.11.6
+[1m[92m   Compiling[0m bytemuck_derive v1.12.1
+[1m[92m   Compiling[0m displaydoc v0.2.7
+[1m[92m   Compiling[0m zerocopy-derive v0.8.60
+[1m[92m   Compiling[0m itoa v1.0.18
+[1m[92m   Compiling[0m memchr v2.8.3
+[1m[92m   Compiling[0m multiversion_no_op v1.0.0
+[1m[92m   Compiling[0m getrandom v0.4.3
+[1m[92m   Compiling[0m parking_lot_core v0.9.12
+[1m[92m   Compiling[0m wgpu-hal v30.0.1 (/home/ubuntu/horizon-main/third_party/wgpu-hal)
+[1m[92m   Compiling[0m semver v1.0.28
+[1m[92m   Compiling[0m heck v0.5.0
+[1m[92m   Compiling[0m libc v0.2.190
+[1m[92m   Compiling[0m rustc_version v0.4.1
+[1m[92m   Compiling[0m horizon-mod-api-gen v0.1.0 (/home/ubuntu/horizon-main/crates/horizon-mod-api-gen)
+[1m[92m   Compiling[0m libmimalloc-sys v0.1.49 (/home/ubuntu/horizon-main/third_party/libmimalloc-sys)
+[1m[92m   Compiling[0m wgpu-core v30.0.1
+[1m[92m   Compiling[0m litrs v1.0.0
+[1m[92m   Compiling[0m curve25519-dalek v4.1.3
+[1m[92m   Compiling[0m wgpu v30.0.1
+[1m[92m   Compiling[0m winit v0.30.13
+[1m[92m   Compiling[0m ash v0.38.0+1.3.281
+[1m[92m   Compiling[0m document-features v0.2.12
+[1m[92m   Compiling[0m rustix v1.1.5
+[1m[92m   Compiling[0m horizon-client-render v0.1.0 (/home/ubuntu/horizon-main/crates/horizon-client-render)
+[1m[92m   Compiling[0m horizon-client v0.1.0 (/home/ubuntu/horizon-main/crates/horizon-client)
+[1m[92m   Compiling[0m rustc-std-workspace-core v1.99.0 (/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/rustc-std-workspace-core)
+[1m[92m   Compiling[0m alloc v0.0.0 (/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/alloc)
+[1m[92m   Compiling[0m unwind v0.0.0 (/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/unwind)
+[1m[92m   Compiling[0m adler2 v2.0.1
+[1m[92m   Compiling[0m cfg-if v1.0.4
+[1m[92m   Compiling[0m rustc-demangle v0.1.28
+[1m[92m   Compiling[0m rustc-literal-escaper v0.0.8
+[1m[92m   Compiling[0m rustc-std-workspace-alloc v1.99.0 (/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/rustc-std-workspace-alloc)
+[1m[92m   Compiling[0m panic_abort v0.0.0 (/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/panic_abort)
+[1m[92m   Compiling[0m panic_unwind v0.0.0 (/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/panic_unwind)
+[1m[92m   Compiling[0m gimli v0.34.0
+[1m[92m   Compiling[0m miniz_oxide v0.9.1
+[1m[92m   Compiling[0m std_detect v0.1.5 (/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std_detect)
+[1m[92m   Compiling[0m hashbrown v0.17.1
+[1m[92m   Compiling[0m addr2line v0.27.1
+[1m[91merror[0m[1m: none of the predicates in this `cfg_select` evaluated to true[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/alloc/mod.rs:66:1
+    [1m[94m|[0m
+[1m[94m 66[0m [1m[94m|[0m [1m[91m/[0m cfg_select! {
+[1m[94m 67[0m [1m[94m|[0m [1m[91m|[0m     any(target_family = "unix", target_os = "wasi", target_os = "teeo[1m[94m...[0m
+[1m[94m 68[0m [1m[94m|[0m [1m[91m|[0m         mod unix;
+[1m[94m 69[0m [1m[94m|[0m [1m[91m|[0m         use unix as imp;
+[1m[94m...[0m   [1m[91m|[0m
+[1m[94m111[0m [1m[94m|[0m [1m[91m|[0m }
+    [1m[94m|[0m [1m[91m|_^[0m
+
+[1m[91merror[0m[1m: none of the predicates in this `cfg_select` evaluated to true[0m
+  [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/io/error/mod.rs:1:1
+   [1m[94m|[0m
+[1m[94m 1[0m [1m[94m|[0m [1m[91m/[0m cfg_select! {
+[1m[94m 2[0m [1m[94m|[0m [1m[91m|[0m     target_os = "hermit" => {
+[1m[94m 3[0m [1m[94m|[0m [1m[91m|[0m         mod hermit;
+[1m[94m 4[0m [1m[94m|[0m [1m[91m|[0m         pub use hermit::*;
+[1m[94m...[0m  [1m[91m|[0m
+[1m[94m38[0m [1m[94m|[0m [1m[91m|[0m }
+   [1m[94m|[0m [1m[91m|_^[0m
+
+[1m[91merror[0m[1m: Using no_threads implementation on a target with threads[0m
+  [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/sync/condvar/no_threads.rs:12:1
+   [1m[94m|[0m
+[1m[94m12[0m [1m[94m|[0m compile_error!("Using no_threads implementation on a target with threads");
+   [1m[94m|[0m [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+
+[1m[91merror[0m[1m: Using no_threads implementation on a target with threads[0m
+  [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/sync/mutex/no_threads.rs:10:1
+   [1m[94m|[0m
+[1m[94m10[0m [1m[94m|[0m compile_error!("Using no_threads implementation on a target with threads");
+   [1m[94m|[0m [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+
+[1m[91merror[0m[1m: Using no_threads implementation on a target with threads[0m
+  [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/sync/once/no_threads.rs:12:1
+   [1m[94m|[0m
+[1m[94m12[0m [1m[94m|[0m compile_error!("Using no_threads implementation on a target with threads");
+   [1m[94m|[0m [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+
+[1m[91merror[0m[1m: Using no_threads implementation on a target with threads[0m
+  [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/sync/rwlock/no_threads.rs:10:1
+   [1m[94m|[0m
+[1m[94m10[0m [1m[94m|[0m compile_error!("Using no_threads implementation on a target with threads");
+   [1m[94m|[0m [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+
+[1m[91merror[E0432][0m[1m: unresolved imports `crate::sys::io::decode_error_kind`, `crate::sys::io::errno`, `crate::sys::io::format_error`, `crate::sys::io::is_interrupted`[0m
+  [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/io/error.rs:10:15
+   [1m[94m|[0m
+[1m[94m10[0m [1m[94m|[0m     sys::io::{decode_error_kind, errno, format_error, is_interrupted},
+   [1m[94m|[0m               [1m[91m^^^^^^^^^^^^^^^^^[0m  [1m[91m^^^^^[0m  [1m[91m^^^^^^^^^^^^[0m  [1m[91m^^^^^^^^^^^^^^[0m [1m[91mno `is_interrupted` in `sys::io`[0m
+   [1m[94m|[0m               [1m[91m|[0m                  [1m[91m|[0m      [1m[91m|[0m
+   [1m[94m|[0m               [1m[91m|[0m                  [1m[91m|[0m      [1m[91mno `format_error` in `sys::io`[0m
+   [1m[94m|[0m               [1m[91m|[0m                  [1m[91mno `errno` in `sys::io`[0m
+   [1m[94m|[0m               [1m[91mno `decode_error_kind` in `sys::io`[0m
+
+[1m[91merror[E0432][0m[1m: unresolved import `imp`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/alloc/mod.rs:113:9
+    [1m[94m|[0m
+[1m[94m113[0m [1m[94m|[0m pub use imp::{alloc, dealloc, realloc};
+    [1m[94m|[0m         [1m[91m^^^[0m [1m[91muse of unresolved module or unlinked crate `imp`[0m
+    [1m[94m|[0m
+    [1m[94m= [0m[1mhelp[0m: if you wanted to use a crate named `imp`, use `cargo add imp` to add it to your `Cargo.toml`
+
+[1m[91merror[E0432][0m[1m: unresolved imports `error::decode_error_kind`, `error::errno`, `error::format_error`, `error::is_interrupted`[0m
+  [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/io/mod.rs:54:17
+   [1m[94m|[0m
+[1m[94m54[0m [1m[94m|[0m pub use error::{decode_error_kind, errno, format_error, is_interrupted};
+   [1m[94m|[0m                 [1m[91m^^^^^^^^^^^^^^^^^[0m  [1m[91m^^^^^[0m  [1m[91m^^^^^^^^^^^^[0m  [1m[91m^^^^^^^^^^^^^^[0m [1m[91mno `is_interrupted` in `sys::io::error`[0m
+   [1m[94m|[0m                 [1m[91m|[0m                  [1m[91m|[0m      [1m[91m|[0m
+   [1m[94m|[0m                 [1m[91m|[0m                  [1m[91m|[0m      [1m[91mno `format_error` in `sys::io::error`[0m
+   [1m[94m|[0m                 [1m[91m|[0m                  [1m[91mno `errno` in `sys::io::error`[0m
+   [1m[94m|[0m                 [1m[91mno `decode_error_kind` in `sys::io::error`[0m
+
+[1m[91merror[E0432][0m[1m: unresolved import `imp`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/alloc/mod.rs:127:17
+    [1m[94m|[0m
+[1m[94m127[0m [1m[94m|[0m         pub use imp::alloc_zeroed;
+    [1m[94m|[0m                 [1m[91m^^^[0m [1m[91muse of unresolved module or unlinked crate `imp`[0m
+    [1m[94m|[0m
+    [1m[94m= [0m[1mhelp[0m: if you wanted to use a crate named `imp`, use `cargo add imp` to add it to your `Cargo.toml`
+
+[1m[91merror[E0432][0m[1m: unresolved imports `super::key::Key`, `super::key::LazyKey`, `super::key::get`, `super::key::set`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/os.rs:1:18
+    [1m[94m|[0m
+[1m[94m  1[0m [1m[94m|[0m use super::key::{Key, LazyKey, get, set};
+    [1m[94m|[0m                  [1m[91m^^^[0m  [1m[91m^^^^^^^[0m  [1m[91m^^^[0m  [1m[91m^^^[0m [1m[91mno `set` in `sys::thread_local::key`[0m
+    [1m[94m|[0m                  [1m[91m|[0m    [1m[91m|[0m        [1m[91m|[0m
+    [1m[94m|[0m                  [1m[91m|[0m    [1m[91m|[0m        [1m[91mno `get` in `sys::thread_local::key`[0m
+    [1m[94m|[0m                  [1m[91m|[0m    [1m[91mno `LazyKey` in `sys::thread_local::key`[0m
+    [1m[94m|[0m                  [1m[91mno `Key` in `sys::thread_local::key`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:180:35
+    [1m[94m|[0m
+[1m[94m167[0m [1m[94m|[0m   [1m[94m...[0m   any(
+    [1m[94m|[0m [1m[94m __________-[0m
+[1m[94m168[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m       all(not(target_vendor = "apple"), not(target_family = "wasm[1m[94m...[0m
+[1m[94m169[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m       all(not(target_thread_local), target_vendor = "apple"),
+[1m[94m170[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m       target_os = "teeos",
+[1m[94m171[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m       target_os = "wasi",
+[1m[94m172[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m   ) => {
+    [1m[94m|[0m [1m[94m|_______-[0m [1m[94mthe item is gated here[0m
+[1m[94m...[0m
+[1m[94m180[0m [1m[94m|[0m   [1m[94m...[0m       pub(super) use unix::{Key, set};
+    [1m[94m|[0m                                   [1m[92m^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:187:38
+    [1m[94m|[0m
+[1m[94m183[0m [1m[94m|[0m         all(not(target_thread_local), target_os = "windows") => {
+    [1m[94m|[0m                                       [1m[94m---------------------[0m [1m[94mthe item is gated behind the `windows` feature[0m
+[1m[94m...[0m
+[1m[94m187[0m [1m[94m|[0m             pub(super) use windows::{Key, LazyKey, get, run_dtors, set};
+    [1m[94m|[0m                                      [1m[92m^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:195:34
+    [1m[94m|[0m
+[1m[94m189[0m [1m[94m|[0m         all(target_vendor = "fortanix", target_env = "sgx") => {
+    [1m[94m|[0m             [1m[94m--------------------------[0m [1m[94mthe item is gated behind the `fortanix` feature[0m
+[1m[94m...[0m
+[1m[94m195[0m [1m[94m|[0m             pub(super) use sgx::{Key, get, set};
+    [1m[94m|[0m                                  [1m[92m^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:205:35
+    [1m[94m|[0m
+[1m[94m198[0m [1m[94m|[0m         target_os = "xous" => {
+    [1m[94m|[0m         [1m[94m------------------[0m [1m[94mthe item is gated behind the `xous` feature[0m
+[1m[94m...[0m
+[1m[94m205[0m [1m[94m|[0m             pub(super) use xous::{Key, get, set};
+    [1m[94m|[0m                                   [1m[92m^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:212:43
+    [1m[94m|[0m
+[1m[94m208[0m [1m[94m|[0m         target_os = "motor" => {
+    [1m[94m|[0m         [1m[94m-------------------[0m [1m[94mthe item is gated behind the `motor` feature[0m
+[1m[94m...[0m
+[1m[94m212[0m [1m[94m|[0m             pub(super) use moto_rt::tls::{Key, get, set};
+    [1m[94m|[0m                                           [1m[92m^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:177:34
+    [1m[94m|[0m
+[1m[94m167[0m [1m[94m|[0m   [1m[94m...[0m   any(
+    [1m[94m|[0m [1m[94m __________-[0m
+[1m[94m168[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m       all(not(target_vendor = "apple"), not(target_family = "wasm[1m[94m...[0m
+[1m[94m169[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m       all(not(target_thread_local), target_vendor = "apple"),
+[1m[94m170[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m       target_os = "teeos",
+[1m[94m171[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m       target_os = "wasi",
+[1m[94m172[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m   ) => {
+    [1m[94m|[0m [1m[94m|_______-[0m [1m[94mthe item is gated here[0m
+[1m[94m...[0m
+[1m[94m177[0m [1m[94m|[0m   [1m[94m...[0m       pub(super) use racy::LazyKey;
+    [1m[94m|[0m                                  [1m[92m^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:187:43
+    [1m[94m|[0m
+[1m[94m183[0m [1m[94m|[0m         all(not(target_thread_local), target_os = "windows") => {
+    [1m[94m|[0m                                       [1m[94m---------------------[0m [1m[94mthe item is gated behind the `windows` feature[0m
+[1m[94m...[0m
+[1m[94m187[0m [1m[94m|[0m             pub(super) use windows::{Key, LazyKey, get, run_dtors, set};
+    [1m[94m|[0m                                           [1m[92m^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:194:34
+    [1m[94m|[0m
+[1m[94m189[0m [1m[94m|[0m         all(target_vendor = "fortanix", target_env = "sgx") => {
+    [1m[94m|[0m             [1m[94m--------------------------[0m [1m[94mthe item is gated behind the `fortanix` feature[0m
+[1m[94m...[0m
+[1m[94m194[0m [1m[94m|[0m             pub(super) use racy::LazyKey;
+    [1m[94m|[0m                                  [1m[92m^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:203:34
+    [1m[94m|[0m
+[1m[94m198[0m [1m[94m|[0m         target_os = "xous" => {
+    [1m[94m|[0m         [1m[94m------------------[0m [1m[94mthe item is gated behind the `xous` feature[0m
+[1m[94m...[0m
+[1m[94m203[0m [1m[94m|[0m             pub(super) use racy::LazyKey;
+    [1m[94m|[0m                                  [1m[92m^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:214:34
+    [1m[94m|[0m
+[1m[94m208[0m [1m[94m|[0m         target_os = "motor" => {
+    [1m[94m|[0m         [1m[94m-------------------[0m [1m[94mthe item is gated behind the `motor` feature[0m
+[1m[94m...[0m
+[1m[94m214[0m [1m[94m|[0m             pub(super) use racy::LazyKey;
+    [1m[94m|[0m                                  [1m[92m^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:179:34
+    [1m[94m|[0m
+[1m[94m167[0m [1m[94m|[0m   [1m[94m...[0m   any(
+    [1m[94m|[0m [1m[94m __________-[0m
+[1m[94m168[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m       all(not(target_vendor = "apple"), not(target_family = "wasm[1m[94m...[0m
+[1m[94m169[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m       all(not(target_thread_local), target_vendor = "apple"),
+[1m[94m170[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m       target_os = "teeos",
+[1m[94m171[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m       target_os = "wasi",
+[1m[94m172[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m   ) => {
+    [1m[94m|[0m [1m[94m|_______-[0m [1m[94mthe item is gated here[0m
+[1m[94m...[0m
+[1m[94m179[0m [1m[94m|[0m   [1m[94m...[0m       pub(super) use unix::get;
+    [1m[94m|[0m                                  [1m[92m^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:187:52
+    [1m[94m|[0m
+[1m[94m183[0m [1m[94m|[0m         all(not(target_thread_local), target_os = "windows") => {
+    [1m[94m|[0m                                       [1m[94m---------------------[0m [1m[94mthe item is gated behind the `windows` feature[0m
+[1m[94m...[0m
+[1m[94m187[0m [1m[94m|[0m             pub(super) use windows::{Key, LazyKey, get, run_dtors, set};
+    [1m[94m|[0m                                                    [1m[92m^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:195:39
+    [1m[94m|[0m
+[1m[94m189[0m [1m[94m|[0m         all(target_vendor = "fortanix", target_env = "sgx") => {
+    [1m[94m|[0m             [1m[94m--------------------------[0m [1m[94mthe item is gated behind the `fortanix` feature[0m
+[1m[94m...[0m
+[1m[94m195[0m [1m[94m|[0m             pub(super) use sgx::{Key, get, set};
+    [1m[94m|[0m                                       [1m[92m^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:205:40
+    [1m[94m|[0m
+[1m[94m198[0m [1m[94m|[0m         target_os = "xous" => {
+    [1m[94m|[0m         [1m[94m------------------[0m [1m[94mthe item is gated behind the `xous` feature[0m
+[1m[94m...[0m
+[1m[94m205[0m [1m[94m|[0m             pub(super) use xous::{Key, get, set};
+    [1m[94m|[0m                                        [1m[92m^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:212:48
+    [1m[94m|[0m
+[1m[94m208[0m [1m[94m|[0m         target_os = "motor" => {
+    [1m[94m|[0m         [1m[94m-------------------[0m [1m[94mthe item is gated behind the `motor` feature[0m
+[1m[94m...[0m
+[1m[94m212[0m [1m[94m|[0m             pub(super) use moto_rt::tls::{Key, get, set};
+    [1m[94m|[0m                                                [1m[92m^^^[0m
+[1m[92mnote[0m: module `crate::collections::hash::set` exists but is inaccessible
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/collections/hash/mod.rs:4:1
+    [1m[94m|[0m
+[1m[94m  4[0m [1m[94m|[0m pub(crate) mod set;
+    [1m[94m|[0m [1m[92m^^^^^^^^^^^^^^^^^^^[0m [1m[92mnot accessible[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:180:40
+    [1m[94m|[0m
+[1m[94m167[0m [1m[94m|[0m   [1m[94m...[0m   any(
+    [1m[94m|[0m [1m[94m __________-[0m
+[1m[94m168[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m       all(not(target_vendor = "apple"), not(target_family = "wasm[1m[94m...[0m
+[1m[94m169[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m       all(not(target_thread_local), target_vendor = "apple"),
+[1m[94m170[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m       target_os = "teeos",
+[1m[94m171[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m       target_os = "wasi",
+[1m[94m172[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m   ) => {
+    [1m[94m|[0m [1m[94m|_______-[0m [1m[94mthe item is gated here[0m
+[1m[94m...[0m
+[1m[94m180[0m [1m[94m|[0m   [1m[94m...[0m       pub(super) use unix::{Key, set};
+    [1m[94m|[0m                                        [1m[92m^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:187:68
+    [1m[94m|[0m
+[1m[94m183[0m [1m[94m|[0m         all(not(target_thread_local), target_os = "windows") => {
+    [1m[94m|[0m                                       [1m[94m---------------------[0m [1m[94mthe item is gated behind the `windows` feature[0m
+[1m[94m...[0m
+[1m[94m187[0m [1m[94m|[0m             pub(super) use windows::{Key, LazyKey, get, run_dtors, set};
+    [1m[94m|[0m                                                                    [1m[92m^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:195:44
+    [1m[94m|[0m
+[1m[94m189[0m [1m[94m|[0m         all(target_vendor = "fortanix", target_env = "sgx") => {
+    [1m[94m|[0m             [1m[94m--------------------------[0m [1m[94mthe item is gated behind the `fortanix` feature[0m
+[1m[94m...[0m
+[1m[94m195[0m [1m[94m|[0m             pub(super) use sgx::{Key, get, set};
+    [1m[94m|[0m                                            [1m[92m^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:205:45
+    [1m[94m|[0m
+[1m[94m198[0m [1m[94m|[0m         target_os = "xous" => {
+    [1m[94m|[0m         [1m[94m------------------[0m [1m[94mthe item is gated behind the `xous` feature[0m
+[1m[94m...[0m
+[1m[94m205[0m [1m[94m|[0m             pub(super) use xous::{Key, get, set};
+    [1m[94m|[0m                                             [1m[92m^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:212:53
+    [1m[94m|[0m
+[1m[94m208[0m [1m[94m|[0m         target_os = "motor" => {
+    [1m[94m|[0m         [1m[94m-------------------[0m [1m[94mthe item is gated behind the `motor` feature[0m
+[1m[94m...[0m
+[1m[94m212[0m [1m[94m|[0m             pub(super) use moto_rt::tls::{Key, get, set};
+    [1m[94m|[0m                                                     [1m[92m^^^[0m
+
+[1m[91merror[E0432][0m[1m: unresolved imports `crate::sys::thread_local::key::LazyKey`, `crate::sys::thread_local::key::get`, `crate::sys::thread_local::key::set`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/guard/key.rs:39:41
+    [1m[94m|[0m
+[1m[94m 39[0m [1m[94m|[0m     use crate::sys::thread_local::key::{LazyKey, get, set};
+    [1m[94m|[0m                                         [1m[91m^^^^^^^[0m  [1m[91m^^^[0m  [1m[91m^^^[0m [1m[91mno `set` in `sys::thread_local::key`[0m
+    [1m[94m|[0m                                         [1m[91m|[0m        [1m[91m|[0m
+    [1m[94m|[0m                                         [1m[91m|[0m        [1m[91mno `get` in `sys::thread_local::key`[0m
+    [1m[94m|[0m                                         [1m[91mno `LazyKey` in `sys::thread_local::key`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:177:34
+    [1m[94m|[0m
+[1m[94m167[0m [1m[94m|[0m   [1m[94m...[0m   any(
+    [1m[94m|[0m [1m[94m __________-[0m
+[1m[94m168[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m       all(not(target_vendor = "apple"), not(target_family = "wasm[1m[94m...[0m
+[1m[94m169[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m       all(not(target_thread_local), target_vendor = "apple"),
+[1m[94m170[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m       target_os = "teeos",
+[1m[94m171[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m       target_os = "wasi",
+[1m[94m172[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m   ) => {
+    [1m[94m|[0m [1m[94m|_______-[0m [1m[94mthe item is gated here[0m
+[1m[94m...[0m
+[1m[94m177[0m [1m[94m|[0m   [1m[94m...[0m       pub(super) use racy::LazyKey;
+    [1m[94m|[0m                                  [1m[92m^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:187:43
+    [1m[94m|[0m
+[1m[94m183[0m [1m[94m|[0m         all(not(target_thread_local), target_os = "windows") => {
+    [1m[94m|[0m                                       [1m[94m---------------------[0m [1m[94mthe item is gated behind the `windows` feature[0m
+[1m[94m...[0m
+[1m[94m187[0m [1m[94m|[0m             pub(super) use windows::{Key, LazyKey, get, run_dtors, set};
+    [1m[94m|[0m                                           [1m[92m^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:194:34
+    [1m[94m|[0m
+[1m[94m189[0m [1m[94m|[0m         all(target_vendor = "fortanix", target_env = "sgx") => {
+    [1m[94m|[0m             [1m[94m--------------------------[0m [1m[94mthe item is gated behind the `fortanix` feature[0m
+[1m[94m...[0m
+[1m[94m194[0m [1m[94m|[0m             pub(super) use racy::LazyKey;
+    [1m[94m|[0m                                  [1m[92m^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:203:34
+    [1m[94m|[0m
+[1m[94m198[0m [1m[94m|[0m         target_os = "xous" => {
+    [1m[94m|[0m         [1m[94m------------------[0m [1m[94mthe item is gated behind the `xous` feature[0m
+[1m[94m...[0m
+[1m[94m203[0m [1m[94m|[0m             pub(super) use racy::LazyKey;
+    [1m[94m|[0m                                  [1m[92m^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:214:34
+    [1m[94m|[0m
+[1m[94m208[0m [1m[94m|[0m         target_os = "motor" => {
+    [1m[94m|[0m         [1m[94m-------------------[0m [1m[94mthe item is gated behind the `motor` feature[0m
+[1m[94m...[0m
+[1m[94m214[0m [1m[94m|[0m             pub(super) use racy::LazyKey;
+    [1m[94m|[0m                                  [1m[92m^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:179:34
+    [1m[94m|[0m
+[1m[94m167[0m [1m[94m|[0m   [1m[94m...[0m   any(
+    [1m[94m|[0m [1m[94m __________-[0m
+[1m[94m168[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m       all(not(target_vendor = "apple"), not(target_family = "wasm[1m[94m...[0m
+[1m[94m169[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m       all(not(target_thread_local), target_vendor = "apple"),
+[1m[94m170[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m       target_os = "teeos",
+[1m[94m171[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m       target_os = "wasi",
+[1m[94m172[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m   ) => {
+    [1m[94m|[0m [1m[94m|_______-[0m [1m[94mthe item is gated here[0m
+[1m[94m...[0m
+[1m[94m179[0m [1m[94m|[0m   [1m[94m...[0m       pub(super) use unix::get;
+    [1m[94m|[0m                                  [1m[92m^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:187:52
+    [1m[94m|[0m
+[1m[94m183[0m [1m[94m|[0m         all(not(target_thread_local), target_os = "windows") => {
+    [1m[94m|[0m                                       [1m[94m---------------------[0m [1m[94mthe item is gated behind the `windows` feature[0m
+[1m[94m...[0m
+[1m[94m187[0m [1m[94m|[0m             pub(super) use windows::{Key, LazyKey, get, run_dtors, set};
+    [1m[94m|[0m                                                    [1m[92m^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:195:39
+    [1m[94m|[0m
+[1m[94m189[0m [1m[94m|[0m         all(target_vendor = "fortanix", target_env = "sgx") => {
+    [1m[94m|[0m             [1m[94m--------------------------[0m [1m[94mthe item is gated behind the `fortanix` feature[0m
+[1m[94m...[0m
+[1m[94m195[0m [1m[94m|[0m             pub(super) use sgx::{Key, get, set};
+    [1m[94m|[0m                                       [1m[92m^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:205:40
+    [1m[94m|[0m
+[1m[94m198[0m [1m[94m|[0m         target_os = "xous" => {
+    [1m[94m|[0m         [1m[94m------------------[0m [1m[94mthe item is gated behind the `xous` feature[0m
+[1m[94m...[0m
+[1m[94m205[0m [1m[94m|[0m             pub(super) use xous::{Key, get, set};
+    [1m[94m|[0m                                        [1m[92m^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:212:48
+    [1m[94m|[0m
+[1m[94m208[0m [1m[94m|[0m         target_os = "motor" => {
+    [1m[94m|[0m         [1m[94m-------------------[0m [1m[94mthe item is gated behind the `motor` feature[0m
+[1m[94m...[0m
+[1m[94m212[0m [1m[94m|[0m             pub(super) use moto_rt::tls::{Key, get, set};
+    [1m[94m|[0m                                                [1m[92m^^^[0m
+[1m[92mnote[0m: module `crate::collections::hash::set` exists but is inaccessible
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/collections/hash/mod.rs:4:1
+    [1m[94m|[0m
+[1m[94m  4[0m [1m[94m|[0m pub(crate) mod set;
+    [1m[94m|[0m [1m[92m^^^^^^^^^^^^^^^^^^^[0m [1m[92mnot accessible[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:180:40
+    [1m[94m|[0m
+[1m[94m167[0m [1m[94m|[0m   [1m[94m...[0m   any(
+    [1m[94m|[0m [1m[94m __________-[0m
+[1m[94m168[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m       all(not(target_vendor = "apple"), not(target_family = "wasm[1m[94m...[0m
+[1m[94m169[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m       all(not(target_thread_local), target_vendor = "apple"),
+[1m[94m170[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m       target_os = "teeos",
+[1m[94m171[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m       target_os = "wasi",
+[1m[94m172[0m [1m[94m|[0m [1m[94m|[0m [1m[94m...[0m   ) => {
+    [1m[94m|[0m [1m[94m|_______-[0m [1m[94mthe item is gated here[0m
+[1m[94m...[0m
+[1m[94m180[0m [1m[94m|[0m   [1m[94m...[0m       pub(super) use unix::{Key, set};
+    [1m[94m|[0m                                        [1m[92m^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:187:68
+    [1m[94m|[0m
+[1m[94m183[0m [1m[94m|[0m         all(not(target_thread_local), target_os = "windows") => {
+    [1m[94m|[0m                                       [1m[94m---------------------[0m [1m[94mthe item is gated behind the `windows` feature[0m
+[1m[94m...[0m
+[1m[94m187[0m [1m[94m|[0m             pub(super) use windows::{Key, LazyKey, get, run_dtors, set};
+    [1m[94m|[0m                                                                    [1m[92m^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:195:44
+    [1m[94m|[0m
+[1m[94m189[0m [1m[94m|[0m         all(target_vendor = "fortanix", target_env = "sgx") => {
+    [1m[94m|[0m             [1m[94m--------------------------[0m [1m[94mthe item is gated behind the `fortanix` feature[0m
+[1m[94m...[0m
+[1m[94m195[0m [1m[94m|[0m             pub(super) use sgx::{Key, get, set};
+    [1m[94m|[0m                                            [1m[92m^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:205:45
+    [1m[94m|[0m
+[1m[94m198[0m [1m[94m|[0m         target_os = "xous" => {
+    [1m[94m|[0m         [1m[94m------------------[0m [1m[94mthe item is gated behind the `xous` feature[0m
+[1m[94m...[0m
+[1m[94m205[0m [1m[94m|[0m             pub(super) use xous::{Key, get, set};
+    [1m[94m|[0m                                             [1m[92m^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread_local/mod.rs:212:53
+    [1m[94m|[0m
+[1m[94m208[0m [1m[94m|[0m         target_os = "motor" => {
+    [1m[94m|[0m         [1m[94m-------------------[0m [1m[94mthe item is gated behind the `motor` feature[0m
+[1m[94m...[0m
+[1m[94m212[0m [1m[94m|[0m             pub(super) use moto_rt::tls::{Key, get, set};
+    [1m[94m|[0m                                                     [1m[92m^^^[0m
+
+[1m[91merror[E0425][0m[1m: cannot find function `fill_bytes` in module `sys`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/random.rs:148:14
+    [1m[94m|[0m
+[1m[94m148[0m [1m[94m|[0m         sys::fill_bytes(bytes)
+    [1m[94m|[0m              [1m[91m^^^^^^^^^^[0m [1m[91mnot found in `sys`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:5:25
+    [1m[94m|[0m
+[1m[94m  3[0m [1m[94m|[0m     any(target_os = "linux", target_os = "android") => {
+    [1m[94m|[0m        [1m[94m--------------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m  4[0m [1m[94m|[0m         mod linux;
+[1m[94m  5[0m [1m[94m|[0m         pub use linux::{fill_bytes, hashmap_random_keys};
+    [1m[94m|[0m                         [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:9:26
+    [1m[94m|[0m
+[1m[94m  7[0m [1m[94m|[0m     target_os = "windows" => {
+    [1m[94m|[0m     [1m[94m---------------------[0m [1m[94mthe item is gated behind the `windows` feature[0m
+[1m[94m  8[0m [1m[94m|[0m         mod windows;
+[1m[94m  9[0m [1m[94m|[0m         pub use windows::fill_bytes;
+    [1m[94m|[0m                          [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:13:24
+    [1m[94m|[0m
+[1m[94m 11[0m [1m[94m|[0m     target_vendor = "apple" => {
+    [1m[94m|[0m     [1m[94m-----------------------[0m [1m[94mthe item is gated behind the `apple` feature[0m
+[1m[94m 12[0m [1m[94m|[0m         mod apple;
+[1m[94m 13[0m [1m[94m|[0m         pub use apple::fill_bytes;
+    [1m[94m|[0m                        [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:29:29
+    [1m[94m|[0m
+[1m[94m 16[0m [1m[94m|[0m       any(
+    [1m[94m|[0m [1m[94m ________-[0m
+[1m[94m 17[0m [1m[94m|[0m [1m[94m|[0m         target_os = "dragonfly",
+[1m[94m 18[0m [1m[94m|[0m [1m[94m|[0m         target_os = "freebsd",
+[1m[94m 19[0m [1m[94m|[0m [1m[94m|[0m         target_os = "haiku",
+[1m[94m...[0m   [1m[94m|[0m
+[1m[94m 26[0m [1m[94m|[0m [1m[94m|[0m         target_os = "nuttx",
+[1m[94m 27[0m [1m[94m|[0m [1m[94m|[0m     ) => {
+    [1m[94m|[0m [1m[94m|_____-[0m [1m[94mthe item is gated here[0m
+[1m[94m 28[0m [1m[94m|[0m           mod arc4random;
+[1m[94m 29[0m [1m[94m|[0m           pub use arc4random::fill_bytes;
+    [1m[94m|[0m                               [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:33:29
+    [1m[94m|[0m
+[1m[94m 31[0m [1m[94m|[0m     target_os = "emscripten" => {
+    [1m[94m|[0m     [1m[94m------------------------[0m [1m[94mthe item is gated behind the `emscripten` feature[0m
+[1m[94m 32[0m [1m[94m|[0m         mod getentropy;
+[1m[94m 33[0m [1m[94m|[0m         pub use getentropy::fill_bytes;
+    [1m[94m|[0m                             [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:37:25
+    [1m[94m|[0m
+[1m[94m 35[0m [1m[94m|[0m     target_os = "espidf" => {
+    [1m[94m|[0m     [1m[94m--------------------[0m [1m[94mthe item is gated behind the `espidf` feature[0m
+[1m[94m 36[0m [1m[94m|[0m         mod espidf;
+[1m[94m 37[0m [1m[94m|[0m         pub use espidf::fill_bytes;
+    [1m[94m|[0m                         [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:41:26
+    [1m[94m|[0m
+[1m[94m 39[0m [1m[94m|[0m     target_os = "fuchsia" => {
+    [1m[94m|[0m     [1m[94m---------------------[0m [1m[94mthe item is gated behind the `fuchsia` feature[0m
+[1m[94m 40[0m [1m[94m|[0m         mod fuchsia;
+[1m[94m 41[0m [1m[94m|[0m         pub use fuchsia::fill_bytes;
+    [1m[94m|[0m                          [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:45:25
+    [1m[94m|[0m
+[1m[94m 43[0m [1m[94m|[0m     target_os = "hermit" => {
+    [1m[94m|[0m     [1m[94m--------------------[0m [1m[94mthe item is gated behind the `hermit` feature[0m
+[1m[94m 44[0m [1m[94m|[0m         mod hermit;
+[1m[94m 45[0m [1m[94m|[0m         pub use hermit::fill_bytes;
+    [1m[94m|[0m                         [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:50:28
+    [1m[94m|[0m
+[1m[94m 47[0m [1m[94m|[0m [1m[94m...[0many(target_os = "horizon", target_os = "cygwin", target_os = "redox") => {
+    [1m[94m|[0m       [1m[94m------------------------------------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m...[0m
+[1m[94m 50[0m [1m[94m|[0m [1m[94m...[0m    pub use getrandom::fill_bytes;
+    [1m[94m|[0m                           [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:54:30
+    [1m[94m|[0m
+[1m[94m 52[0m [1m[94m|[0m [1m[94m...[0many(target_os = "aix", target_os = "hurd", target_os = "nto", target_os = "qnx") => {
+    [1m[94m|[0m       [1m[94m-----------------------------------------------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m 53[0m [1m[94m|[0m [1m[94m...[0m    mod unix_legacy;
+[1m[94m 54[0m [1m[94m|[0m [1m[94m...[0m    pub use unix_legacy::fill_bytes;
+    [1m[94m|[0m                             [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:58:24
+    [1m[94m|[0m
+[1m[94m 56[0m [1m[94m|[0m     target_os = "motor" => {
+    [1m[94m|[0m     [1m[94m-------------------[0m [1m[94mthe item is gated behind the `motor` feature[0m
+[1m[94m 57[0m [1m[94m|[0m         mod motor;
+[1m[94m 58[0m [1m[94m|[0m         pub use motor::fill_bytes;
+    [1m[94m|[0m                        [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:62:22
+    [1m[94m|[0m
+[1m[94m 60[0m [1m[94m|[0m     all(target_vendor = "fortanix", target_env = "sgx") => {
+    [1m[94m|[0m         [1m[94m--------------------------[0m [1m[94mthe item is gated behind the `fortanix` feature[0m
+[1m[94m 61[0m [1m[94m|[0m         mod sgx;
+[1m[94m 62[0m [1m[94m|[0m         pub use sgx::fill_bytes;
+    [1m[94m|[0m                      [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:66:24
+    [1m[94m|[0m
+[1m[94m 64[0m [1m[94m|[0m     target_os = "solid_asp3" => {
+    [1m[94m|[0m     [1m[94m------------------------[0m [1m[94mthe item is gated behind the `solid_asp3` feature[0m
+[1m[94m 65[0m [1m[94m|[0m         mod solid;
+[1m[94m 66[0m [1m[94m|[0m         pub use solid::fill_bytes;
+    [1m[94m|[0m                        [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:70:24
+    [1m[94m|[0m
+[1m[94m 68[0m [1m[94m|[0m     target_os = "teeos" => {
+    [1m[94m|[0m     [1m[94m-------------------[0m [1m[94mthe item is gated behind the `teeos` feature[0m
+[1m[94m 69[0m [1m[94m|[0m         mod teeos;
+[1m[94m 70[0m [1m[94m|[0m         pub use teeos::fill_bytes;
+    [1m[94m|[0m                        [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:74:25
+    [1m[94m|[0m
+[1m[94m 72[0m [1m[94m|[0m     target_os = "trusty" => {
+    [1m[94m|[0m     [1m[94m--------------------[0m [1m[94mthe item is gated behind the `trusty` feature[0m
+[1m[94m 73[0m [1m[94m|[0m         mod trusty;
+[1m[94m 74[0m [1m[94m|[0m         pub use trusty::fill_bytes;
+    [1m[94m|[0m                         [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:78:23
+    [1m[94m|[0m
+[1m[94m 76[0m [1m[94m|[0m     target_os = "uefi" => {
+    [1m[94m|[0m     [1m[94m------------------[0m [1m[94mthe item is gated behind the `uefi` feature[0m
+[1m[94m 77[0m [1m[94m|[0m         mod uefi;
+[1m[94m 78[0m [1m[94m|[0m         pub use uefi::fill_bytes;
+    [1m[94m|[0m                       [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:82:26
+    [1m[94m|[0m
+[1m[94m 80[0m [1m[94m|[0m     target_os = "vxworks" => {
+    [1m[94m|[0m     [1m[94m---------------------[0m [1m[94mthe item is gated behind the `vxworks` feature[0m
+[1m[94m 81[0m [1m[94m|[0m         mod vxworks;
+[1m[94m 82[0m [1m[94m|[0m         pub use vxworks::fill_bytes;
+    [1m[94m|[0m                          [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:86:25
+    [1m[94m|[0m
+[1m[94m 84[0m [1m[94m|[0m     all(target_os = "wasi", target_env = "p1") => {
+    [1m[94m|[0m         [1m[94m------------------[0m [1m[94mthe item is gated behind the `wasi` feature[0m
+[1m[94m 85[0m [1m[94m|[0m         mod wasip1;
+[1m[94m 86[0m [1m[94m|[0m         pub use wasip1::fill_bytes;
+    [1m[94m|[0m                         [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:90:24
+    [1m[94m|[0m
+[1m[94m 88[0m [1m[94m|[0m [1m[94m...[0mll(target_os = "wasi", any(target_env = "p2", target_env = "p3")) => {
+    [1m[94m|[0m       [1m[94m------------------[0m [1m[94mthe item is gated behind the `wasi` feature[0m
+[1m[94m 89[0m [1m[94m|[0m [1m[94m...[0m   mod wasi;
+[1m[94m 90[0m [1m[94m|[0m [1m[94m...[0m   pub use wasi::{fill_bytes, hashmap_random_keys};
+    [1m[94m|[0m                      [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:94:23
+    [1m[94m|[0m
+[1m[94m 92[0m [1m[94m|[0m     target_os = "zkvm" => {
+    [1m[94m|[0m     [1m[94m------------------[0m [1m[94mthe item is gated behind the `zkvm` feature[0m
+[1m[94m 93[0m [1m[94m|[0m         mod zkvm;
+[1m[94m 94[0m [1m[94m|[0m         pub use zkvm::fill_bytes;
+    [1m[94m|[0m                       [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:105:31
+    [1m[94m|[0m
+[1m[94m 96[0m [1m[94m|[0m       any(
+    [1m[94m|[0m [1m[94m ________-[0m
+[1m[94m 97[0m [1m[94m|[0m [1m[94m|[0m         all(target_family = "wasm", target_os = "unknown"),
+[1m[94m 98[0m [1m[94m|[0m [1m[94m|[0m         target_os = "xous",
+[1m[94m 99[0m [1m[94m|[0m [1m[94m|[0m         target_os = "vexos",
+[1m[94m100[0m [1m[94m|[0m [1m[94m|[0m         target_os = "l4re",
+[1m[94m101[0m [1m[94m|[0m [1m[94m|[0m     ) => {
+    [1m[94m|[0m [1m[94m|_____-[0m [1m[94mthe item is gated here[0m
+[1m[94m...[0m
+[1m[94m105[0m [1m[94m|[0m           pub use unsupported::{fill_bytes, hashmap_random_keys};
+    [1m[94m|[0m                                 [1m[92m^^^^^^^^^^[0m
+
+[1m[91merror[E0425][0m[1m: cannot find function `fill_bytes` in this scope[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:121:5
+    [1m[94m|[0m
+[1m[94m121[0m [1m[94m|[0m     fill_bytes(&mut buf);
+    [1m[94m|[0m     [1m[91m^^^^^^^^^^[0m [1m[91mnot found in this scope[0m
+
+[1mSome errors have detailed explanations: E0425, E0432.[0m
+[1mFor more information about an error, try `rustc --explain E0425`.[0m
+[1m[91merror[0m: could not compile `std` (lib) due to 14 previous errors

@@ -1,0 +1,1892 @@
+[1m[33mwarning[0m[1m: missing `[lints]` to inherit `[workspace.lints]`[0m
+  [1m[94m--> [0mcrates/horizon-prepare/Cargo.toml
+   [1m[94m= [0m[1mnote[0m: `cargo::missing_lints_inheritance` is set to `warn` by default
+[1m[96mhelp[0m: to inherit `workspace.lints, add:
+   [1m[94m|[0m
+[1m[94m23[0m [92m~ [0mpath = "src/main.rs"
+[1m[94m24[0m [92m+ [lints][0m
+[1m[94m25[0m [92m+ workspace = true[0m
+   [1m[94m|[0m
+[1m[96mhelp[0m: to clarify your intent to not inherit, add:
+   [1m[94m|[0m
+[1m[94m23[0m [92m~ [0mpath = "src/main.rs"
+[1m[94m24[0m [92m+ [lints][0m
+   [1m[94m|[0m
+[1m[33mwarning[0m: `horizon-prepare` (manifest) generated 1 warning
+[1m[33mwarning[0m[1m: missing `[lints]` to inherit `[workspace.lints]`[0m
+  [1m[94m--> [0mcrates/horizon-theme/Cargo.toml
+   [1m[94m= [0m[1mnote[0m: `cargo::missing_lints_inheritance` is set to `warn` by default
+[1m[96mhelp[0m: to inherit `workspace.lints, add:
+   [1m[94m|[0m
+[1m[94m 8[0m [92m~ [0m[dependencies]
+[1m[94m 9[0m [92m+ [lints][0m
+[1m[94m10[0m [92m+ workspace = true[0m
+   [1m[94m|[0m
+[1m[96mhelp[0m: to clarify your intent to not inherit, add:
+   [1m[94m|[0m
+[1m[94m 8[0m [92m~ [0m[dependencies]
+[1m[94m 9[0m [92m+ [lints][0m
+   [1m[94m|[0m
+[1m[33mwarning[0m: `horizon-theme` (manifest) generated 1 warning
+[1m[33mwarning[0m[1m: missing `[lints]` to inherit `[workspace.lints]`[0m
+  [1m[94m--> [0mcrates/horizon-bench/Cargo.toml
+   [1m[94m= [0m[1mnote[0m: `cargo::missing_lints_inheritance` is set to `warn` by default
+[1m[96mhelp[0m: to inherit `workspace.lints, add:
+   [1m[94m|[0m
+[1m[94m12[0m [92m~ [0mhorizon-telemetry = { path = "../horizon-telemetry", default-features = false }
+[1m[94m13[0m [92m+ [lints][0m
+[1m[94m14[0m [92m+ workspace = true[0m
+   [1m[94m|[0m
+[1m[96mhelp[0m: to clarify your intent to not inherit, add:
+   [1m[94m|[0m
+[1m[94m12[0m [92m~ [0mhorizon-telemetry = { path = "../horizon-telemetry", default-features = false }
+[1m[94m13[0m [92m+ [lints][0m
+   [1m[94m|[0m
+[1m[33mwarning[0m: `horizon-bench` (manifest) generated 1 warning
+[1m[92m   Compiling[0m compiler_builtins v0.1.160 (/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/compiler-builtins/compiler-builtins)
+[1m[92m   Compiling[0m core v0.0.0 (/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core)
+[1m[92m   Compiling[0m libc v0.2.191
+[1m[92m   Compiling[0m object v0.39.1
+[1m[92m   Compiling[0m libc v0.2.190 (/home/ubuntu/horizon-main/third_party/libc)
+[1m[92m   Compiling[0m std v0.0.0 (/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std)
+[1m[92m   Compiling[0m libm v0.2.16
+[1m[92m   Compiling[0m rustc-std-workspace-core v1.99.0 (/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/rustc-std-workspace-core)
+[1m[92m   Compiling[0m alloc v0.0.0 (/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/alloc)
+[1m[92m   Compiling[0m memchr v2.8.3
+[1m[92m   Compiling[0m adler2 v2.0.1
+[1m[92m   Compiling[0m rustc-demangle v0.1.28
+[1m[92m   Compiling[0m unwind v0.0.0 (/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/unwind)
+[1m[92m   Compiling[0m cfg-if v1.0.4
+[1m[92m   Compiling[0m rustc-literal-escaper v0.0.8
+[1m[92m   Compiling[0m rustc-std-workspace-alloc v1.99.0 (/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/rustc-std-workspace-alloc)
+[1m[92m   Compiling[0m panic_unwind v0.0.0 (/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/panic_unwind)
+[1m[92m   Compiling[0m panic_abort v0.0.0 (/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/panic_abort)
+[1m[92m   Compiling[0m gimli v0.34.0
+[1m[92m   Compiling[0m miniz_oxide v0.9.1
+[1m[92m   Compiling[0m std_detect v0.1.5 (/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std_detect)
+[1m[92m   Compiling[0m hashbrown v0.17.1
+[1m[92m   Compiling[0m addr2line v0.27.1
+[1m[91merror[E0432][0m[1m: unresolved import `super::platform::fs`[0m
+  [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/fs.rs:10:22
+   [1m[94m|[0m
+[1m[94m10[0m [1m[94m|[0m use super::platform::fs::MetadataExt as _;
+   [1m[94m|[0m                      [1m[91m^^[0m [1m[91mcould not find `fs` in `platform`[0m
+
+[1m[91merror[E0432][0m[1m: unresolved import `super::platform::raw`[0m
+  [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/raw.rs:27:26
+   [1m[94m|[0m
+[1m[94m27[0m [1m[94m|[0m pub use super::platform::raw::pthread_t;
+   [1m[94m|[0m                          [1m[91m^^^[0m [1m[91mcould not find `raw` in `platform`[0m
+
+[1m[91merror[E0432][0m[1m: unresolved import `super::platform::raw`[0m
+  [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/raw.rs:30:26
+   [1m[94m|[0m
+[1m[94m30[0m [1m[94m|[0m pub use super::platform::raw::{blkcnt_t, time_t};
+   [1m[94m|[0m                          [1m[91m^^^[0m [1m[91mcould not find `raw` in `platform`[0m
+
+[1m[91merror[E0432][0m[1m: unresolved import `super::platform::raw`[0m
+  [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/raw.rs:33:26
+   [1m[94m|[0m
+[1m[94m33[0m [1m[94m|[0m pub use super::platform::raw::{blksize_t, dev_t, ino_t, mode_t, nlink_t,[1m[94m...[0m
+   [1m[94m|[0m                          [1m[91m^^^[0m [1m[91mcould not find `raw` in `platform`[0m
+
+[1m[91merror[E0432][0m[1m: unresolved import `libc::MSG_PEEK`[0m
+ [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/unix.rs:1:12
+  [1m[94m|[0m
+[1m[94m1[0m [1m[94m|[0m use libc::{MSG_PEEK, c_int, c_void, size_t, sockaddr, socklen_t};
+  [1m[94m|[0m            [1m[91m^^^^^^^^[0m [1m[91mno `MSG_PEEK` in the root[0m
+
+[1m[91merror[E0432][0m[1m: unresolved import `imp::current_exe`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/paths/mod.rs:68:55
+    [1m[94m|[0m
+[1m[94m 68[0m [1m[94m|[0m [1m[94m...[0m, chdir, current_exe, getcwd, home_dir, join_paths,
+    [1m[94m|[0m             [1m[91m^^^^^^^^^^^[0m [1m[91mno `current_exe` in `sys::paths::unix`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/paths/unix.rs:133:8
+    [1m[94m|[0m
+[1m[94m132[0m [1m[94m|[0m #[cfg(target_os = "aix")]
+    [1m[94m|[0m       [1m[94m-----------------[0m [1m[94mthe item is gated behind the `aix` feature[0m
+[1m[94m133[0m [1m[94m|[0m pub fn current_exe() -> io::Result<PathBuf> {
+    [1m[94m|[0m        [1m[92m^^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/paths/unix.rs:171:8
+    [1m[94m|[0m
+[1m[94m170[0m [1m[94m|[0m #[cfg(any(target_os = "freebsd", target_os = "dragonfly"))]
+    [1m[94m|[0m          [1m[94m------------------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m171[0m [1m[94m|[0m pub fn current_exe() -> io::Result<PathBuf> {
+    [1m[94m|[0m        [1m[92m^^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/paths/unix.rs:209:8
+    [1m[94m|[0m
+[1m[94m208[0m [1m[94m|[0m #[cfg(target_os = "netbsd")]
+    [1m[94m|[0m       [1m[94m--------------------[0m [1m[94mthe item is gated behind the `netbsd` feature[0m
+[1m[94m209[0m [1m[94m|[0m pub fn current_exe() -> io::Result<PathBuf> {
+    [1m[94m|[0m        [1m[92m^^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/paths/unix.rs:255:8
+    [1m[94m|[0m
+[1m[94m254[0m [1m[94m|[0m #[cfg(target_os = "openbsd")]
+    [1m[94m|[0m       [1m[94m---------------------[0m [1m[94mthe item is gated behind the `openbsd` feature[0m
+[1m[94m255[0m [1m[94m|[0m pub fn current_exe() -> io::Result<PathBuf> {
+    [1m[94m|[0m        [1m[92m^^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/paths/unix.rs:274:8
+    [1m[94m|[0m
+[1m[94m266[0m [1m[94m|[0m   #[cfg(any(
+    [1m[94m|[0m [1m[94m __________-[0m
+[1m[94m267[0m [1m[94m|[0m [1m[94m|[0m     target_os = "linux",
+[1m[94m268[0m [1m[94m|[0m [1m[94m|[0m     target_os = "cygwin",
+[1m[94m269[0m [1m[94m|[0m [1m[94m|[0m     target_os = "hurd",
+[1m[94m...[0m   [1m[94m|[0m
+[1m[94m272[0m [1m[94m|[0m [1m[94m|[0m     target_os = "emscripten"
+[1m[94m273[0m [1m[94m|[0m [1m[94m|[0m ))]
+    [1m[94m|[0m [1m[94m|_-[0m [1m[94mthe item is gated here[0m
+[1m[94m274[0m [1m[94m|[0m   pub fn current_exe() -> io::Result<PathBuf> {
+    [1m[94m|[0m          [1m[92m^^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/paths/unix.rs:285:8
+    [1m[94m|[0m
+[1m[94m284[0m [1m[94m|[0m #[cfg(any(target_os = "nto", target_os = "qnx"))]
+    [1m[94m|[0m          [1m[94m--------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m285[0m [1m[94m|[0m pub fn current_exe() -> io::Result<PathBuf> {
+    [1m[94m|[0m        [1m[92m^^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/paths/unix.rs:296:8
+    [1m[94m|[0m
+[1m[94m295[0m [1m[94m|[0m #[cfg(target_vendor = "apple")]
+    [1m[94m|[0m       [1m[94m-----------------------[0m [1m[94mthe item is gated behind the `apple` feature[0m
+[1m[94m296[0m [1m[94m|[0m pub fn current_exe() -> io::Result<PathBuf> {
+    [1m[94m|[0m        [1m[92m^^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/paths/unix.rs:316:8
+    [1m[94m|[0m
+[1m[94m315[0m [1m[94m|[0m #[cfg(any(target_os = "solaris", target_os = "illumos"))]
+    [1m[94m|[0m          [1m[94m----------------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m316[0m [1m[94m|[0m pub fn current_exe() -> io::Result<PathBuf> {
+    [1m[94m|[0m        [1m[92m^^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/paths/unix.rs:337:8
+    [1m[94m|[0m
+[1m[94m336[0m [1m[94m|[0m #[cfg(target_os = "haiku")]
+    [1m[94m|[0m       [1m[94m-------------------[0m [1m[94mthe item is gated behind the `haiku` feature[0m
+[1m[94m337[0m [1m[94m|[0m pub fn current_exe() -> io::Result<PathBuf> {
+    [1m[94m|[0m        [1m[92m^^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/paths/unix.rs:358:8
+    [1m[94m|[0m
+[1m[94m357[0m [1m[94m|[0m #[cfg(target_os = "redox")]
+    [1m[94m|[0m       [1m[94m-------------------[0m [1m[94mthe item is gated behind the `redox` feature[0m
+[1m[94m358[0m [1m[94m|[0m pub fn current_exe() -> io::Result<PathBuf> {
+    [1m[94m|[0m        [1m[92m^^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/paths/unix.rs:363:8
+    [1m[94m|[0m
+[1m[94m362[0m [1m[94m|[0m #[cfg(target_os = "rtems")]
+    [1m[94m|[0m       [1m[94m-------------------[0m [1m[94mthe item is gated behind the `rtems` feature[0m
+[1m[94m363[0m [1m[94m|[0m pub fn current_exe() -> io::Result<PathBuf> {
+    [1m[94m|[0m        [1m[92m^^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/paths/unix.rs:368:8
+    [1m[94m|[0m
+[1m[94m367[0m [1m[94m|[0m #[cfg(target_os = "l4re")]
+    [1m[94m|[0m       [1m[94m------------------[0m [1m[94mthe item is gated behind the `l4re` feature[0m
+[1m[94m368[0m [1m[94m|[0m pub fn current_exe() -> io::Result<PathBuf> {
+    [1m[94m|[0m        [1m[92m^^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/paths/unix.rs:373:8
+    [1m[94m|[0m
+[1m[94m372[0m [1m[94m|[0m #[cfg(target_os = "vxworks")]
+    [1m[94m|[0m       [1m[94m---------------------[0m [1m[94mthe item is gated behind the `vxworks` feature[0m
+[1m[94m373[0m [1m[94m|[0m pub fn current_exe() -> io::Result<PathBuf> {
+    [1m[94m|[0m        [1m[92m^^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/paths/unix.rs:386:8
+    [1m[94m|[0m
+[1m[94m385[0m [1m[94m|[0m [1m[94m...[0mg(any(target_os = "espidf", target_os = "horizon", target_os = "vita"))]
+    [1m[94m|[0m         [1m[94m-----------------------------------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m386[0m [1m[94m|[0m [1m[94m...[0mfn current_exe() -> io::Result<PathBuf> {
+    [1m[94m|[0m       [1m[92m^^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/paths/unix.rs:391:8
+    [1m[94m|[0m
+[1m[94m390[0m [1m[94m|[0m #[cfg(target_os = "fuchsia")]
+    [1m[94m|[0m       [1m[94m---------------------[0m [1m[94mthe item is gated behind the `fuchsia` feature[0m
+[1m[94m391[0m [1m[94m|[0m pub fn current_exe() -> io::Result<PathBuf> {
+    [1m[94m|[0m        [1m[92m^^^^^^^^^^^[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr_un` in crate `libc`[0m
+  [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/net/addr.rs:24:54
+   [1m[94m|[0m
+[1m[94m24[0m [1m[94m|[0m [1m[94m...[0m::offset_of!(libc::sockaddr_un, sun_path);
+   [1m[94m|[0m                       [1m[91m^^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+   [1m[94m|[0m
+[1m[92mnote[0m: similarly named struct `sockaddr` defined here
+  [1m[94m--> [0mthird_party/libc/src/macros.rs:200:8
+  [1m[94m--> [0mthird_party/libc/src/unix/newlib/mod.rs:57:0
+  [1m[94m::: [0mthird_party/libc/src/unix/newlib/mod.rs:63:1
+   [1m[94m|[0m
+   [1m[94m= [0m[1mnote[0m: in this macro invocation
+   [1m[94m= [0m[1mnote[0m: this error originates in the macro `s` (in Nightly builds, run with -Z macro-backtrace for more info)
+[1m[96mhelp[0m: a struct with a similar name exists
+   [1m[94m|[0m
+[1m[94m24[0m [91m- [0mconst SUN_PATH_OFFSET: usize = mem::offset_of!(libc::[91msockaddr_un[0m, sun_path);
+[1m[94m24[0m [92m+ [0mconst SUN_PATH_OFFSET: usize = mem::offset_of!(libc::[92msockaddr[0m, sun_path);
+   [1m[94m|[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr_un` in crate `libc`[0m
+  [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/net/addr.rs:27:61
+   [1m[94m|[0m
+[1m[94m27[0m [1m[94m|[0m [1m[94m...[0m io::Result<(libc::sockaddr_un, libc::socklen_t)> {
+   [1m[94m|[0m                       [1m[91m^^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+   [1m[94m|[0m
+[1m[92mnote[0m: similarly named struct `sockaddr` defined here
+  [1m[94m--> [0mthird_party/libc/src/macros.rs:200:8
+  [1m[94m--> [0mthird_party/libc/src/unix/newlib/mod.rs:57:0
+  [1m[94m::: [0mthird_party/libc/src/unix/newlib/mod.rs:63:1
+   [1m[94m|[0m
+   [1m[94m= [0m[1mnote[0m: in this macro invocation
+   [1m[94m= [0m[1mnote[0m: this error originates in the macro `s` (in Nightly builds, run with -Z macro-backtrace for more info)
+[1m[96mhelp[0m: a struct with a similar name exists
+   [1m[94m|[0m
+[1m[94m27[0m [91m- [0mpub(super) fn sockaddr_un(path: &Path) -> io::Result<(libc::[91msockaddr_un[0m, libc::socklen_t)> {
+[1m[94m27[0m [92m+ [0mpub(super) fn sockaddr_un(path: &Path) -> io::Result<(libc::[92msockaddr[0m, libc::socklen_t)> {
+   [1m[94m|[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr_un` in crate `libc`[0m
+  [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/net/addr.rs:29:25
+   [1m[94m|[0m
+[1m[94m29[0m [1m[94m|[0m     let mut addr: libc::sockaddr_un = unsafe { mem::zeroed() };
+   [1m[94m|[0m                         [1m[91m^^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+   [1m[94m|[0m
+[1m[92mnote[0m: similarly named struct `sockaddr` defined here
+  [1m[94m--> [0mthird_party/libc/src/macros.rs:200:8
+  [1m[94m--> [0mthird_party/libc/src/unix/newlib/mod.rs:57:0
+  [1m[94m::: [0mthird_party/libc/src/unix/newlib/mod.rs:63:1
+   [1m[94m|[0m
+   [1m[94m= [0m[1mnote[0m: in this macro invocation
+   [1m[94m= [0m[1mnote[0m: this error originates in the macro `s` (in Nightly builds, run with -Z macro-backtrace for more info)
+[1m[96mhelp[0m: a struct with a similar name exists
+   [1m[94m|[0m
+[1m[94m29[0m [91m- [0m    let mut addr: libc::[91msockaddr_un[0m = unsafe { mem::zeroed() };
+[1m[94m29[0m [92m+ [0m    let mut addr: libc::[92msockaddr[0m = unsafe { mem::zeroed() };
+   [1m[94m|[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `AF_UNIX` in crate `libc`[0m
+  [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/net/addr.rs:30:29
+   [1m[94m|[0m
+[1m[94m30[0m [1m[94m|[0m     addr.sun_family = libc::AF_UNIX as libc::sa_family_t;
+   [1m[94m|[0m                             [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr_un` in crate `libc`[0m
+  [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/net/addr.rs:97:28
+   [1m[94m|[0m
+[1m[94m97[0m [1m[94m|[0m     pub(super) addr: libc::sockaddr_un,
+   [1m[94m|[0m                            [1m[91m^^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+   [1m[94m|[0m
+[1m[92mnote[0m: similarly named struct `sockaddr` defined here
+  [1m[94m--> [0mthird_party/libc/src/macros.rs:200:8
+  [1m[94m--> [0mthird_party/libc/src/unix/newlib/mod.rs:57:0
+  [1m[94m::: [0mthird_party/libc/src/unix/newlib/mod.rs:63:1
+   [1m[94m|[0m
+   [1m[94m= [0m[1mnote[0m: in this macro invocation
+   [1m[94m= [0m[1mnote[0m: this error originates in the macro `s` (in Nightly builds, run with -Z macro-backtrace for more info)
+[1m[96mhelp[0m: a struct with a similar name exists
+   [1m[94m|[0m
+[1m[94m97[0m [91m- [0m    pub(super) addr: libc::[91msockaddr_un[0m,
+[1m[94m97[0m [92m+ [0m    pub(super) addr: libc::[92msockaddr[0m,
+   [1m[94m|[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr_un` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/net/addr.rs:107:33
+    [1m[94m|[0m
+[1m[94m107[0m [1m[94m|[0m             let mut addr: libc::sockaddr_un = mem::zeroed();
+    [1m[94m|[0m                                 [1m[91m^^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named struct `sockaddr` defined here
+   [1m[94m--> [0mthird_party/libc/src/macros.rs:200:8
+   [1m[94m--> [0mthird_party/libc/src/unix/newlib/mod.rs:57:0
+   [1m[94m::: [0mthird_party/libc/src/unix/newlib/mod.rs:63:1
+    [1m[94m|[0m
+    [1m[94m= [0m[1mnote[0m: in this macro invocation
+    [1m[94m= [0m[1mnote[0m: this error originates in the macro `s` (in Nightly builds, run with -Z macro-backtrace for more info)
+[1m[96mhelp[0m: a struct with a similar name exists
+    [1m[94m|[0m
+[1m[94m107[0m [91m- [0m            let mut addr: libc::[91msockaddr_un[0m = mem::zeroed();
+[1m[94m107[0m [92m+ [0m            let mut addr: libc::[92msockaddr[0m = mem::zeroed();
+    [1m[94m|[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr_un` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/net/addr.rs:108:43
+    [1m[94m|[0m
+[1m[94m108[0m [1m[94m|[0m [1m[94m...[0m   let mut len = size_of::<libc::sockaddr_un>() as libc::socklen_t;
+    [1m[94m|[0m                                     [1m[91m^^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named struct `sockaddr` defined here
+   [1m[94m--> [0mthird_party/libc/src/macros.rs:200:8
+   [1m[94m--> [0mthird_party/libc/src/unix/newlib/mod.rs:57:0
+   [1m[94m::: [0mthird_party/libc/src/unix/newlib/mod.rs:63:1
+    [1m[94m|[0m
+    [1m[94m= [0m[1mnote[0m: in this macro invocation
+    [1m[94m= [0m[1mnote[0m: this error originates in the macro `s` (in Nightly builds, run with -Z macro-backtrace for more info)
+[1m[96mhelp[0m: a struct with a similar name exists
+    [1m[94m|[0m
+[1m[94m108[0m [91m- [0m            let mut len = size_of::<libc::[91msockaddr_un[0m>() as libc::socklen_t;
+[1m[94m108[0m [92m+ [0m            let mut len = size_of::<libc::[92msockaddr[0m>() as libc::socklen_t;
+    [1m[94m|[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr_un` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/net/addr.rs:116:21
+    [1m[94m|[0m
+[1m[94m116[0m [1m[94m|[0m         addr: libc::sockaddr_un,
+    [1m[94m|[0m                     [1m[91m^^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named struct `sockaddr` defined here
+   [1m[94m--> [0mthird_party/libc/src/macros.rs:200:8
+   [1m[94m--> [0mthird_party/libc/src/unix/newlib/mod.rs:57:0
+   [1m[94m::: [0mthird_party/libc/src/unix/newlib/mod.rs:63:1
+    [1m[94m|[0m
+    [1m[94m= [0m[1mnote[0m: in this macro invocation
+    [1m[94m= [0m[1mnote[0m: this error originates in the macro `s` (in Nightly builds, run with -Z macro-backtrace for more info)
+[1m[96mhelp[0m: a struct with a similar name exists
+    [1m[94m|[0m
+[1m[94m116[0m [91m- [0m        addr: libc::[91msockaddr_un[0m,
+[1m[94m116[0m [92m+ [0m        addr: libc::[92msockaddr[0m,
+    [1m[94m|[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr_un` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/net/addr.rs:129:39
+    [1m[94m|[0m
+[1m[94m129[0m [1m[94m|[0m         len = len.min(size_of::<libc::sockaddr_un>() as libc::socklen_t);
+    [1m[94m|[0m                                       [1m[91m^^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named struct `sockaddr` defined here
+   [1m[94m--> [0mthird_party/libc/src/macros.rs:200:8
+   [1m[94m--> [0mthird_party/libc/src/unix/newlib/mod.rs:57:0
+   [1m[94m::: [0mthird_party/libc/src/unix/newlib/mod.rs:63:1
+    [1m[94m|[0m
+    [1m[94m= [0m[1mnote[0m: in this macro invocation
+    [1m[94m= [0m[1mnote[0m: this error originates in the macro `s` (in Nightly builds, run with -Z macro-backtrace for more info)
+[1m[96mhelp[0m: a struct with a similar name exists
+    [1m[94m|[0m
+[1m[94m129[0m [91m- [0m        len = len.min(size_of::<libc::[91msockaddr_un[0m>() as libc::socklen_t);
+[1m[94m129[0m [92m+ [0m        len = len.min(size_of::<libc::[92msockaddr[0m>() as libc::socklen_t);
+    [1m[94m|[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `AF_UNIX` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/net/addr.rs:135:44
+    [1m[94m|[0m
+[1m[94m135[0m [1m[94m|[0m         } else if addr.sun_family != libc::AF_UNIX as libc::sa_family_t {
+    [1m[94m|[0m                                            [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `AF_UNIX` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/net/datagram.rs:164:39
+    [1m[94m|[0m
+[1m[94m164[0m [1m[94m|[0m         let inner = Socket::new(libc::AF_UNIX, libc::SOCK_DGRAM)?;
+    [1m[94m|[0m                                       [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `AF_UNIX` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/net/datagram.rs:188:47
+    [1m[94m|[0m
+[1m[94m188[0m [1m[94m|[0m         let (i1, i2) = Socket::new_pair(libc::AF_UNIX, libc::SOCK_DGRAM)?;
+    [1m[94m|[0m                                               [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `MSG_PEEK` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/net/datagram.rs:994:41
+    [1m[94m|[0m
+[1m[94m994[0m [1m[94m|[0m         self.recv_from_flags(buf, libc::MSG_PEEK)
+    [1m[94m|[0m                                         [1m[91m^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `AF_UNIX` in crate `libc`[0m
+  [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/net/listener.rs:78:43
+   [1m[94m|[0m
+[1m[94m78[0m [1m[94m|[0m             let inner = Socket::new(libc::AF_UNIX, libc::SOCK_STREAM)?;
+   [1m[94m|[0m                                           [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `SOMAXCONN` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/net/listener.rs:108:48
+    [1m[94m|[0m
+[1m[94m108[0m [1m[94m|[0m             const backlog: libc::c_int = libc::SOMAXCONN;
+    [1m[94m|[0m                                                [1m[91m^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `AF_UNIX` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/net/listener.rs:143:43
+    [1m[94m|[0m
+[1m[94m143[0m [1m[94m|[0m             let inner = Socket::new(libc::AF_UNIX, libc::SOCK_STREAM)?;
+    [1m[94m|[0m                                           [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr_un` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/net/listener.rs:184:32
+    [1m[94m|[0m
+[1m[94m184[0m [1m[94m|[0m         let mut storage: libc::sockaddr_un = unsafe { mem::zeroed() };
+    [1m[94m|[0m                                [1m[91m^^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named struct `sockaddr` defined here
+   [1m[94m--> [0mthird_party/libc/src/macros.rs:200:8
+   [1m[94m--> [0mthird_party/libc/src/unix/newlib/mod.rs:57:0
+   [1m[94m::: [0mthird_party/libc/src/unix/newlib/mod.rs:63:1
+    [1m[94m|[0m
+    [1m[94m= [0m[1mnote[0m: in this macro invocation
+    [1m[94m= [0m[1mnote[0m: this error originates in the macro `s` (in Nightly builds, run with -Z macro-backtrace for more info)
+[1m[96mhelp[0m: a struct with a similar name exists
+    [1m[94m|[0m
+[1m[94m184[0m [91m- [0m        let mut storage: libc::[91msockaddr_un[0m = unsafe { mem::zeroed() };
+[1m[94m184[0m [92m+ [0m        let mut storage: libc::[92msockaddr[0m = unsafe { mem::zeroed() };
+    [1m[94m|[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `AF_UNIX` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/net/stream.rs:121:43
+    [1m[94m|[0m
+[1m[94m121[0m [1m[94m|[0m             let inner = Socket::new(libc::AF_UNIX, libc::SOCK_STREAM)?;
+    [1m[94m|[0m                                           [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `AF_UNIX` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/net/stream.rs:156:43
+    [1m[94m|[0m
+[1m[94m156[0m [1m[94m|[0m             let inner = Socket::new(libc::AF_UNIX, libc::SOCK_STREAM)?;
+    [1m[94m|[0m                                           [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `AF_UNIX` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/net/stream.rs:186:47
+    [1m[94m|[0m
+[1m[94m186[0m [1m[94m|[0m [1m[94m...[0mket::new_pair(libc::AF_UNIX, libc::SOCK_STREAM)?;
+    [1m[94m|[0m                        [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `SIGKILL` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/process.rs:626:53
+    [1m[94m|[0m
+[1m[94m626[0m [1m[94m|[0m         self.handle.send_process_group_signal(libc::SIGKILL)
+    [1m[94m|[0m                                                     [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find function `fill_bytes` in module `sys`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/random.rs:148:14
+    [1m[94m|[0m
+[1m[94m148[0m [1m[94m|[0m         sys::fill_bytes(bytes)
+    [1m[94m|[0m              [1m[91m^^^^^^^^^^[0m [1m[91mnot found in `sys`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:5:25
+    [1m[94m|[0m
+[1m[94m  3[0m [1m[94m|[0m     any(target_os = "linux", target_os = "android") => {
+    [1m[94m|[0m        [1m[94m--------------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m  4[0m [1m[94m|[0m         mod linux;
+[1m[94m  5[0m [1m[94m|[0m         pub use linux::{fill_bytes, hashmap_random_keys};
+    [1m[94m|[0m                         [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:9:26
+    [1m[94m|[0m
+[1m[94m  7[0m [1m[94m|[0m     target_os = "windows" => {
+    [1m[94m|[0m     [1m[94m---------------------[0m [1m[94mthe item is gated behind the `windows` feature[0m
+[1m[94m  8[0m [1m[94m|[0m         mod windows;
+[1m[94m  9[0m [1m[94m|[0m         pub use windows::fill_bytes;
+    [1m[94m|[0m                          [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:13:24
+    [1m[94m|[0m
+[1m[94m 11[0m [1m[94m|[0m     target_vendor = "apple" => {
+    [1m[94m|[0m     [1m[94m-----------------------[0m [1m[94mthe item is gated behind the `apple` feature[0m
+[1m[94m 12[0m [1m[94m|[0m         mod apple;
+[1m[94m 13[0m [1m[94m|[0m         pub use apple::fill_bytes;
+    [1m[94m|[0m                        [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:29:29
+    [1m[94m|[0m
+[1m[94m 16[0m [1m[94m|[0m       any(
+    [1m[94m|[0m [1m[94m ________-[0m
+[1m[94m 17[0m [1m[94m|[0m [1m[94m|[0m         target_os = "dragonfly",
+[1m[94m 18[0m [1m[94m|[0m [1m[94m|[0m         target_os = "freebsd",
+[1m[94m 19[0m [1m[94m|[0m [1m[94m|[0m         target_os = "haiku",
+[1m[94m...[0m   [1m[94m|[0m
+[1m[94m 26[0m [1m[94m|[0m [1m[94m|[0m         target_os = "nuttx",
+[1m[94m 27[0m [1m[94m|[0m [1m[94m|[0m     ) => {
+    [1m[94m|[0m [1m[94m|_____-[0m [1m[94mthe item is gated here[0m
+[1m[94m 28[0m [1m[94m|[0m           mod arc4random;
+[1m[94m 29[0m [1m[94m|[0m           pub use arc4random::fill_bytes;
+    [1m[94m|[0m                               [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:33:29
+    [1m[94m|[0m
+[1m[94m 31[0m [1m[94m|[0m     target_os = "emscripten" => {
+    [1m[94m|[0m     [1m[94m------------------------[0m [1m[94mthe item is gated behind the `emscripten` feature[0m
+[1m[94m 32[0m [1m[94m|[0m         mod getentropy;
+[1m[94m 33[0m [1m[94m|[0m         pub use getentropy::fill_bytes;
+    [1m[94m|[0m                             [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:37:25
+    [1m[94m|[0m
+[1m[94m 35[0m [1m[94m|[0m     target_os = "espidf" => {
+    [1m[94m|[0m     [1m[94m--------------------[0m [1m[94mthe item is gated behind the `espidf` feature[0m
+[1m[94m 36[0m [1m[94m|[0m         mod espidf;
+[1m[94m 37[0m [1m[94m|[0m         pub use espidf::fill_bytes;
+    [1m[94m|[0m                         [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:41:26
+    [1m[94m|[0m
+[1m[94m 39[0m [1m[94m|[0m     target_os = "fuchsia" => {
+    [1m[94m|[0m     [1m[94m---------------------[0m [1m[94mthe item is gated behind the `fuchsia` feature[0m
+[1m[94m 40[0m [1m[94m|[0m         mod fuchsia;
+[1m[94m 41[0m [1m[94m|[0m         pub use fuchsia::fill_bytes;
+    [1m[94m|[0m                          [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:45:25
+    [1m[94m|[0m
+[1m[94m 43[0m [1m[94m|[0m     target_os = "hermit" => {
+    [1m[94m|[0m     [1m[94m--------------------[0m [1m[94mthe item is gated behind the `hermit` feature[0m
+[1m[94m 44[0m [1m[94m|[0m         mod hermit;
+[1m[94m 45[0m [1m[94m|[0m         pub use hermit::fill_bytes;
+    [1m[94m|[0m                         [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:50:28
+    [1m[94m|[0m
+[1m[94m 47[0m [1m[94m|[0m [1m[94m...[0many(target_os = "horizon", target_os = "cygwin", target_os = "redox") => {
+    [1m[94m|[0m       [1m[94m------------------------------------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m...[0m
+[1m[94m 50[0m [1m[94m|[0m [1m[94m...[0m    pub use getrandom::fill_bytes;
+    [1m[94m|[0m                           [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:54:30
+    [1m[94m|[0m
+[1m[94m 52[0m [1m[94m|[0m [1m[94m...[0many(target_os = "aix", target_os = "hurd", target_os = "nto", target_os = "qnx") => {
+    [1m[94m|[0m       [1m[94m-----------------------------------------------------------------------------[0m [1m[94mthe item is gated here[0m
+[1m[94m 53[0m [1m[94m|[0m [1m[94m...[0m    mod unix_legacy;
+[1m[94m 54[0m [1m[94m|[0m [1m[94m...[0m    pub use unix_legacy::fill_bytes;
+    [1m[94m|[0m                             [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:58:24
+    [1m[94m|[0m
+[1m[94m 56[0m [1m[94m|[0m     target_os = "motor" => {
+    [1m[94m|[0m     [1m[94m-------------------[0m [1m[94mthe item is gated behind the `motor` feature[0m
+[1m[94m 57[0m [1m[94m|[0m         mod motor;
+[1m[94m 58[0m [1m[94m|[0m         pub use motor::fill_bytes;
+    [1m[94m|[0m                        [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:62:22
+    [1m[94m|[0m
+[1m[94m 60[0m [1m[94m|[0m     all(target_vendor = "fortanix", target_env = "sgx") => {
+    [1m[94m|[0m         [1m[94m--------------------------[0m [1m[94mthe item is gated behind the `fortanix` feature[0m
+[1m[94m 61[0m [1m[94m|[0m         mod sgx;
+[1m[94m 62[0m [1m[94m|[0m         pub use sgx::fill_bytes;
+    [1m[94m|[0m                      [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:66:24
+    [1m[94m|[0m
+[1m[94m 64[0m [1m[94m|[0m     target_os = "solid_asp3" => {
+    [1m[94m|[0m     [1m[94m------------------------[0m [1m[94mthe item is gated behind the `solid_asp3` feature[0m
+[1m[94m 65[0m [1m[94m|[0m         mod solid;
+[1m[94m 66[0m [1m[94m|[0m         pub use solid::fill_bytes;
+    [1m[94m|[0m                        [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:70:24
+    [1m[94m|[0m
+[1m[94m 68[0m [1m[94m|[0m     target_os = "teeos" => {
+    [1m[94m|[0m     [1m[94m-------------------[0m [1m[94mthe item is gated behind the `teeos` feature[0m
+[1m[94m 69[0m [1m[94m|[0m         mod teeos;
+[1m[94m 70[0m [1m[94m|[0m         pub use teeos::fill_bytes;
+    [1m[94m|[0m                        [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:74:25
+    [1m[94m|[0m
+[1m[94m 72[0m [1m[94m|[0m     target_os = "trusty" => {
+    [1m[94m|[0m     [1m[94m--------------------[0m [1m[94mthe item is gated behind the `trusty` feature[0m
+[1m[94m 73[0m [1m[94m|[0m         mod trusty;
+[1m[94m 74[0m [1m[94m|[0m         pub use trusty::fill_bytes;
+    [1m[94m|[0m                         [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:78:23
+    [1m[94m|[0m
+[1m[94m 76[0m [1m[94m|[0m     target_os = "uefi" => {
+    [1m[94m|[0m     [1m[94m------------------[0m [1m[94mthe item is gated behind the `uefi` feature[0m
+[1m[94m 77[0m [1m[94m|[0m         mod uefi;
+[1m[94m 78[0m [1m[94m|[0m         pub use uefi::fill_bytes;
+    [1m[94m|[0m                       [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:82:26
+    [1m[94m|[0m
+[1m[94m 80[0m [1m[94m|[0m     target_os = "vxworks" => {
+    [1m[94m|[0m     [1m[94m---------------------[0m [1m[94mthe item is gated behind the `vxworks` feature[0m
+[1m[94m 81[0m [1m[94m|[0m         mod vxworks;
+[1m[94m 82[0m [1m[94m|[0m         pub use vxworks::fill_bytes;
+    [1m[94m|[0m                          [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:86:25
+    [1m[94m|[0m
+[1m[94m 84[0m [1m[94m|[0m     all(target_os = "wasi", target_env = "p1") => {
+    [1m[94m|[0m         [1m[94m------------------[0m [1m[94mthe item is gated behind the `wasi` feature[0m
+[1m[94m 85[0m [1m[94m|[0m         mod wasip1;
+[1m[94m 86[0m [1m[94m|[0m         pub use wasip1::fill_bytes;
+    [1m[94m|[0m                         [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:90:24
+    [1m[94m|[0m
+[1m[94m 88[0m [1m[94m|[0m [1m[94m...[0mll(target_os = "wasi", any(target_env = "p2", target_env = "p3")) => {
+    [1m[94m|[0m       [1m[94m------------------[0m [1m[94mthe item is gated behind the `wasi` feature[0m
+[1m[94m 89[0m [1m[94m|[0m [1m[94m...[0m   mod wasi;
+[1m[94m 90[0m [1m[94m|[0m [1m[94m...[0m   pub use wasi::{fill_bytes, hashmap_random_keys};
+    [1m[94m|[0m                      [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:94:23
+    [1m[94m|[0m
+[1m[94m 92[0m [1m[94m|[0m     target_os = "zkvm" => {
+    [1m[94m|[0m     [1m[94m------------------[0m [1m[94mthe item is gated behind the `zkvm` feature[0m
+[1m[94m 93[0m [1m[94m|[0m         mod zkvm;
+[1m[94m 94[0m [1m[94m|[0m         pub use zkvm::fill_bytes;
+    [1m[94m|[0m                       [1m[92m^^^^^^^^^^[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:105:31
+    [1m[94m|[0m
+[1m[94m 96[0m [1m[94m|[0m       any(
+    [1m[94m|[0m [1m[94m ________-[0m
+[1m[94m 97[0m [1m[94m|[0m [1m[94m|[0m         all(target_family = "wasm", target_os = "unknown"),
+[1m[94m 98[0m [1m[94m|[0m [1m[94m|[0m         target_os = "xous",
+[1m[94m 99[0m [1m[94m|[0m [1m[94m|[0m         target_os = "vexos",
+[1m[94m100[0m [1m[94m|[0m [1m[94m|[0m         target_os = "l4re",
+[1m[94m101[0m [1m[94m|[0m [1m[94m|[0m     ) => {
+    [1m[94m|[0m [1m[94m|_____-[0m [1m[94mthe item is gated here[0m
+[1m[94m...[0m
+[1m[94m105[0m [1m[94m|[0m           pub use unsupported::{fill_bytes, hashmap_random_keys};
+    [1m[94m|[0m                                 [1m[92m^^^^^^^^^^[0m
+
+[1m[91merror[E0425][0m[1m: cannot find function `pthread_condattr_setclock` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/pal/unix/sync/condvar.rs:173:27
+    [1m[94m|[0m
+[1m[94m173[0m [1m[94m|[0m [1m[94m...[0m   let r = libc::pthread_condattr_setclock(attr.0.get(), Self::CLOCK);
+    [1m[94m|[0m                     [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named function `pthread_condattr_destroy` defined here
+   [1m[94m--> [0mthird_party/libc/src/unix/mod.rs:1452:4
+[1m[96mhelp[0m: a function with a similar name exists
+    [1m[94m|[0m
+[1m[94m173[0m [91m- [0m            let r = libc::[91mpthread_condattr_setclock[0m(attr.0.get(), Self::CLOCK);
+[1m[94m173[0m [92m+ [0m            let r = libc::[92mpthread_condattr_destroy[0m(attr.0.get(), Self::CLOCK);
+    [1m[94m|[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `POLLNVAL` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/pal/unix/mod.rs:114:40
+    [1m[94m|[0m
+[1m[94m114[0m [1m[94m|[0m                 if pfd.revents & libc::POLLNVAL == 0 {
+    [1m[94m|[0m                                        [1m[91m^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `SIGPIPE` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/pal/unix/mod.rs:178:40
+    [1m[94m|[0m
+[1m[94m178[0m [1m[94m|[0m [1m[94m...[0m   rtassert!(signal(libc::SIGPIPE, handler) != libc::SIG_ERR);
+    [1m[94m|[0m                              [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0433][0m[1m: cannot find module or crate `imp` in this scope[0m
+  [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/args/unix.rs:17:14
+   [1m[94m|[0m
+[1m[94m17[0m [1m[94m|[0m     unsafe { imp::init(argc, argv) }
+   [1m[94m|[0m              [1m[91m^^^[0m [1m[91muse of unresolved module or unlinked crate `imp`[0m
+   [1m[94m|[0m
+   [1m[94m= [0m[1mhelp[0m: if you wanted to use a crate named `imp`, use `cargo add imp` to add it to your `Cargo.toml`
+[1m[92mnote[0m: module `crate::sys::stack_overflow::imp` exists but is inaccessible
+  [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/pal/unix/stack_overflow/mod.rs:32:9
+   [1m[94m|[0m
+[1m[94m32[0m [1m[94m|[0m         mod handler_none;
+   [1m[94m|[0m         [1m[92m^^^^^^^^^^^^^^^^^[0m [1m[92mnot accessible[0m
+
+[1m[91merror[E0425][0m[1m: cannot find function `readv` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/fd/unix.rs:156:19
+    [1m[94m|[0m
+[1m[94m156[0m [1m[94m|[0m             libc::readv(
+    [1m[94m|[0m                   [1m[91m^^^^^[0m [1m[91mnot found in `libc`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named function `read` defined here
+   [1m[94m--> [0mthird_party/libc/src/unix/mod.rs:1215:4
+[1m[96mhelp[0m: a function with a similar name exists
+    [1m[94m|[0m
+[1m[94m156[0m [91m- [0m            libc::[91mreadv[0m(
+[1m[94m156[0m [92m+ [0m            libc::[92mread[0m(
+    [1m[94m|[0m
+
+[1m[91merror[E0425][0m[1m: cannot find function `writev` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/fd/unix.rs:392:19
+    [1m[94m|[0m
+[1m[94m392[0m [1m[94m|[0m             libc::writev(
+    [1m[94m|[0m                   [1m[91m^^^^^^[0m [1m[91mnot found in `libc`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named function `write` defined here
+   [1m[94m--> [0mthird_party/libc/src/unix/mod.rs:1265:4
+[1m[96mhelp[0m: a function with a similar name exists
+    [1m[94m|[0m
+[1m[94m392[0m [91m- [0m            libc::[91mwritev[0m(
+[1m[94m392[0m [92m+ [0m            libc::[92mwrite[0m(
+    [1m[94m|[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `O_DIRECTORY` in crate `libc`[0m
+  [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/fs/unix/dir.rs:81:77
+   [1m[94m|[0m
+[1m[94m81[0m [1m[94m|[0m [1m[94m...[0m(path, opts, libc::O_DIRECTORY)).map(Self)
+   [1m[94m|[0m                       [1m[91m^^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `O_DIRECTORY` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/fs/unix/dir.rs:104:21
+    [1m[94m|[0m
+[1m[94m104[0m [1m[94m|[0m             | libc::O_DIRECTORY
+    [1m[94m|[0m                     [1m[91m^^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `O_DIRECTORY` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/fs/unix/dir.rs:113:45
+    [1m[94m|[0m
+[1m[94m113[0m [1m[94m|[0m [1m[94m...[0mO_CLOEXEC | libc::O_DIRECTORY | TRAVERSE_DIRECTORY;
+    [1m[94m|[0m                      [1m[91m^^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `AT_REMOVEDIR` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/fs/unix/dir.rs:140:39
+    [1m[94m|[0m
+[1m[94m140[0m [1m[94m|[0m                 if remove_dir { libc::AT_REMOVEDIR } else { 0 },
+    [1m[94m|[0m                                       [1m[91m^^^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `AT_SYMLINK_NOFOLLOW` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/fs/unix/dir.rs:159:48
+    [1m[94m|[0m
+[1m[94m159[0m [1m[94m|[0m [1m[94m...[0mollow { libc::AT_SYMLINK_NOFOLLOW } else { 0 };
+    [1m[94m|[0m                  [1m[91m^^^^^^^^^^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find function `dirfd` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/fs/unix.rs:809:41
+    [1m[94m|[0m
+[1m[94m809[0m [1m[94m|[0m                 let fd = unsafe { libc::dirfd(self.inner.dirp.0) };
+    [1m[94m|[0m                                         [1m[91m^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find function `dirfd` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/fs/unix.rs:1023:37
+     [1m[94m|[0m
+[1m[94m1023[0m [1m[94m|[0m             let fd = unsafe { libc::dirfd(self.0) };
+     [1m[94m|[0m                                     [1m[91m^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find function `dirfd` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/fs/unix.rs:1063:45
+     [1m[94m|[0m
+[1m[94m1063[0m [1m[94m|[0m                 let fd = cvt(unsafe { libc::dirfd(self.dir.dirp.0) })?;
+     [1m[94m|[0m                                             [1m[91m^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find function `futimens` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/fs/unix.rs:1647:36
+     [1m[94m|[0m
+[1m[94m1647[0m [1m[94m|[0m [1m[94m...[0m   cvt(unsafe { libc::futimens(self.as_raw_fd(), times.as_ptr()) })?;
+     [1m[94m|[0m                          [1m[91m^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+     [1m[94m|[0m
+[1m[92mnote[0m: similarly named function `utimes` defined here
+    [1m[94m--> [0mthird_party/libc/src/unix/mod.rs:1512:4
+[1m[96mhelp[0m: a function with a similar name exists
+     [1m[94m|[0m
+[1m[94m1647[0m [91m- [0m                cvt(unsafe { libc::[91mfutimens[0m(self.as_raw_fd(), times.as_ptr()) })?;
+[1m[94m1647[0m [92m+ [0m                cvt(unsafe { libc::[92mutimes[0m(self.as_raw_fd(), times.as_ptr()) })?;
+     [1m[94m|[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `UTIME_OMIT` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/fs/unix.rs:1674:32
+     [1m[94m|[0m
+[1m[94m1674[0m [1m[94m|[0m             ts.tv_nsec = libc::UTIME_OMIT as _;
+     [1m[94m|[0m                                [1m[91m^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `O_NOFOLLOW` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/fs/unix.rs:1979:40
+     [1m[94m|[0m
+[1m[94m1979[0m [1m[94m|[0m             options.custom_flags(libc::O_NOFOLLOW);
+     [1m[94m|[0m                                        [1m[91m^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `AT_FDCWD` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/fs/unix.rs:2095:36
+     [1m[94m|[0m
+[1m[94m2095[0m [1m[94m|[0m [1m[94m...[0m   libc::linkat(libc::AT_FDCWD, original.as_ptr(), libc::AT_FDCWD, [1m[94m...[0m
+     [1m[94m|[0m                          [1m[91m^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `AT_FDCWD` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/fs/unix.rs:2095:71
+     [1m[94m|[0m
+[1m[94m2095[0m [1m[94m|[0m [1m[94m...[0mal.as_ptr(), libc::AT_FDCWD, link.as_ptr(), 0)
+     [1m[94m|[0m                       [1m[91m^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `AT_SYMLINK_NOFOLLOW` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/fs/unix.rs:2221:63
+     [1m[94m|[0m
+[1m[94m2221[0m [1m[94m|[0m [1m[94m...[0m else { libc::AT_SYMLINK_NOFOLLOW };
+     [1m[94m|[0m                  [1m[91m^^^^^^^^^^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find function `utimensat` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/fs/unix.rs:2254:32
+     [1m[94m|[0m
+[1m[94m2254[0m [1m[94m|[0m [1m[94m...[0m   cvt(unsafe { libc::utimensat(libc::AT_FDCWD, p.as_ptr(), times.a[1m[94m...[0m
+     [1m[94m|[0m                          [1m[91m^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+     [1m[94m|[0m
+[1m[92mnote[0m: similarly named function `utimes` defined here
+    [1m[94m--> [0mthird_party/libc/src/unix/mod.rs:1512:4
+[1m[96mhelp[0m: a function with a similar name exists
+     [1m[94m|[0m
+[1m[94m2254[0m [91m- [0m            cvt(unsafe { libc::[91mutimensat[0m(libc::AT_FDCWD, p.as_ptr(), times.as_ptr(), flags) })?;
+[1m[94m2254[0m [92m+ [0m            cvt(unsafe { libc::[92mutimes[0m(libc::AT_FDCWD, p.as_ptr(), times.as_ptr(), flags) })?;
+     [1m[94m|[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `AT_FDCWD` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/fs/unix.rs:2254:48
+     [1m[94m|[0m
+[1m[94m2254[0m [1m[94m|[0m [1m[94m...[0mc::utimensat(libc::AT_FDCWD, p.as_ptr(), times.as_ptr(), flags) })?;
+     [1m[94m|[0m                       [1m[91m^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `AT_FDCWD` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/fs/unix.rs:2524:43
+     [1m[94m|[0m
+[1m[94m2524[0m [1m[94m|[0m                 parent_fd.unwrap_or(libc::AT_FDCWD),
+     [1m[94m|[0m                                           [1m[91m^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `O_NOFOLLOW` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/fs/unix.rs:2526:58
+     [1m[94m|[0m
+[1m[94m2526[0m [1m[94m|[0m [1m[94m...[0m:O_RDONLY | libc::O_NOFOLLOW | libc::O_DIRECTORY,
+     [1m[94m|[0m                      [1m[91m^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `O_DIRECTORY` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/fs/unix.rs:2526:77
+     [1m[94m|[0m
+[1m[94m2526[0m [1m[94m|[0m [1m[94m...[0m_NOFOLLOW | libc::O_DIRECTORY,
+     [1m[94m|[0m                      [1m[91m^^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `AT_FDCWD` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/fs/unix.rs:2646:48
+     [1m[94m|[0m
+[1m[94m2646[0m [1m[94m|[0m [1m[94m...[0mfd.unwrap_or(libc::AT_FDCWD), path.as_ptr(), libc::AT_REMOVEDIR)
+     [1m[94m|[0m                       [1m[91m^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `AT_REMOVEDIR` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/fs/unix.rs:2646:80
+     [1m[94m|[0m
+[1m[94m2646[0m [1m[94m|[0m [1m[94m...[0m.as_ptr(), libc::AT_REMOVEDIR)
+     [1m[94m|[0m                     [1m[91m^^^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `EAI_SYSTEM` in crate `libc`[0m
+  [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/unix.rs:45:21
+   [1m[94m|[0m
+[1m[94m45[0m [1m[94m|[0m     if err == libc::EAI_SYSTEM {
+   [1m[94m|[0m                     [1m[91m^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `POLLOUT` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/unix.rs:175:77
+    [1m[94m|[0m
+[1m[94m175[0m [1m[94m|[0m [1m[94m...[0mfd(), events: libc::POLLOUT, revents: 0 };
+    [1m[94m|[0m                        [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `POLLHUP` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/unix.rs:215:62
+    [1m[94m|[0m
+[1m[94m215[0m [1m[94m|[0m [1m[94m...[0mfd.revents & (libc::POLLHUP | libc::POLLERR) != 0;
+    [1m[94m|[0m                        [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `POLLERR` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/unix.rs:215:78
+    [1m[94m|[0m
+[1m[94m215[0m [1m[94m|[0m [1m[94m...[0mbc::POLLHUP | libc::POLLERR) != 0;
+    [1m[94m|[0m                        [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr_storage` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/unix.rs:328:49
+    [1m[94m|[0m
+[1m[94m328[0m [1m[94m|[0m [1m[94m...[0mybeUninit<libc::sockaddr_storage> = mem::MaybeUninit::uninit();
+    [1m[94m|[0m                    [1m[91m^^^^^^^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `SOL_SOCKET` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/unix.rs:398:41
+    [1m[94m|[0m
+[1m[94m398[0m [1m[94m|[0m         unsafe { setsockopt(self, libc::SOL_SOCKET, kind, timeout) }
+    [1m[94m|[0m                                         [1m[91m^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `SOL_SOCKET` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/unix.rs:402:66
+    [1m[94m|[0m
+[1m[94m402[0m [1m[94m|[0m [1m[94m...[0mockopt(self, libc::SOL_SOCKET, kind)? };
+    [1m[94m|[0m                       [1m[91m^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `SOL_SOCKET` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/unix.rs:429:41
+    [1m[94m|[0m
+[1m[94m429[0m [1m[94m|[0m         unsafe { setsockopt(self, libc::SOL_SOCKET, SO_LINGER, linger) }
+    [1m[94m|[0m                                         [1m[91m^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `SOL_SOCKET` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/unix.rs:444:65
+    [1m[94m|[0m
+[1m[94m444[0m [1m[94m|[0m [1m[94m...[0mockopt(self, libc::SOL_SOCKET, SO_LINGER)? };
+    [1m[94m|[0m                       [1m[91m^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `SOL_SOCKET` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/unix.rs:450:41
+    [1m[94m|[0m
+[1m[94m450[0m [1m[94m|[0m [1m[94m...[0m   unsafe { setsockopt(self, libc::SOL_SOCKET, libc::SO_KEEPALIVE, k[1m[94m...[0m
+    [1m[94m|[0m                                       [1m[91m^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `SOL_SOCKET` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/unix.rs:454:58
+    [1m[94m|[0m
+[1m[94m454[0m [1m[94m|[0m [1m[94m...[0mockopt(self, libc::SOL_SOCKET, libc::SO_KEEPALIVE)? };
+    [1m[94m|[0m                       [1m[91m^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `FIONBIO` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/unix.rs:585:58
+    [1m[94m|[0m
+[1m[94m585[0m [1m[94m|[0m [1m[94m...[0m.as_raw_fd(), libc::FIONBIO, &mut nonblocking) }).map(drop)
+    [1m[94m|[0m                        [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `SOL_SOCKET` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/unix.rs:613:58
+    [1m[94m|[0m
+[1m[94m613[0m [1m[94m|[0m [1m[94m...[0mockopt(self, libc::SOL_SOCKET, libc::SO_ERROR)? };
+    [1m[94m|[0m                       [1m[91m^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr_in` in crate `c`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/mod.rs:161:51
+    [1m[94m|[0m
+[1m[94m161[0m [1m[94m|[0m fn socket_addr_v4_to_c(addr: &SocketAddrV4) -> c::sockaddr_in {
+    [1m[94m|[0m                                                   [1m[91m^^^^^^^^^^^[0m [1m[91mnot found in `c`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named struct `sockaddr` defined here
+   [1m[94m--> [0mthird_party/libc/src/macros.rs:200:8
+   [1m[94m--> [0mthird_party/libc/src/unix/newlib/mod.rs:57:0
+   [1m[94m::: [0mthird_party/libc/src/unix/newlib/mod.rs:63:1
+    [1m[94m|[0m
+    [1m[94m= [0m[1mnote[0m: in this macro invocation
+    [1m[94m= [0m[1mnote[0m: this error originates in the macro `s` (in Nightly builds, run with -Z macro-backtrace for more info)
+[1m[96mhelp[0m: a struct with a similar name exists
+    [1m[94m|[0m
+[1m[94m161[0m [91m- [0mfn socket_addr_v4_to_c(addr: &SocketAddrV4) -> c::[91msockaddr_in[0m {
+[1m[94m161[0m [92m+ [0mfn socket_addr_v4_to_c(addr: &SocketAddrV4) -> c::[92msockaddr[0m {
+    [1m[94m|[0m
+
+[1m[91merror[E0422][0m[1m: cannot find struct, variant or union type `sockaddr_in` in crate `c`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/mod.rs:162:8
+    [1m[94m|[0m
+[1m[94m162[0m [1m[94m|[0m     c::sockaddr_in {
+    [1m[94m|[0m        [1m[91m^^^^^^^^^^^[0m [1m[91mnot found in `c`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named struct `sockaddr` defined here
+   [1m[94m--> [0mthird_party/libc/src/macros.rs:200:8
+   [1m[94m--> [0mthird_party/libc/src/unix/newlib/mod.rs:57:0
+   [1m[94m::: [0mthird_party/libc/src/unix/newlib/mod.rs:63:1
+    [1m[94m|[0m
+    [1m[94m= [0m[1mnote[0m: in this macro invocation
+    [1m[94m= [0m[1mnote[0m: this error originates in the macro `s` (in Nightly builds, run with -Z macro-backtrace for more info)
+[1m[96mhelp[0m: a struct with a similar name exists
+    [1m[94m|[0m
+[1m[94m162[0m [91m- [0m    c::[91msockaddr_in[0m {
+[1m[94m162[0m [92m+ [0m    c::[92msockaddr[0m {
+    [1m[94m|[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr_in6` in crate `c`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/mod.rs:170:51
+    [1m[94m|[0m
+[1m[94m170[0m [1m[94m|[0m fn socket_addr_v6_to_c(addr: &SocketAddrV6) -> c::sockaddr_in6 {
+    [1m[94m|[0m                                                   [1m[91m^^^^^^^^^^^^[0m [1m[91mnot found in `c`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named struct `sockaddr` defined here
+   [1m[94m--> [0mthird_party/libc/src/macros.rs:200:8
+   [1m[94m--> [0mthird_party/libc/src/unix/newlib/mod.rs:57:0
+   [1m[94m::: [0mthird_party/libc/src/unix/newlib/mod.rs:63:1
+    [1m[94m|[0m
+    [1m[94m= [0m[1mnote[0m: in this macro invocation
+    [1m[94m= [0m[1mnote[0m: this error originates in the macro `s` (in Nightly builds, run with -Z macro-backtrace for more info)
+[1m[96mhelp[0m: a struct with a similar name exists
+    [1m[94m|[0m
+[1m[94m170[0m [91m- [0mfn socket_addr_v6_to_c(addr: &SocketAddrV6) -> c::[91msockaddr_in6[0m {
+[1m[94m170[0m [92m+ [0mfn socket_addr_v6_to_c(addr: &SocketAddrV6) -> c::[92msockaddr[0m {
+    [1m[94m|[0m
+
+[1m[91merror[E0422][0m[1m: cannot find struct, variant or union type `sockaddr_in6` in crate `c`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/mod.rs:171:8
+    [1m[94m|[0m
+[1m[94m171[0m [1m[94m|[0m     c::sockaddr_in6 {
+    [1m[94m|[0m        [1m[91m^^^^^^^^^^^^[0m [1m[91mnot found in `c`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named struct `sockaddr` defined here
+   [1m[94m--> [0mthird_party/libc/src/macros.rs:200:8
+   [1m[94m--> [0mthird_party/libc/src/unix/newlib/mod.rs:57:0
+   [1m[94m::: [0mthird_party/libc/src/unix/newlib/mod.rs:63:1
+    [1m[94m|[0m
+    [1m[94m= [0m[1mnote[0m: in this macro invocation
+    [1m[94m= [0m[1mnote[0m: this error originates in the macro `s` (in Nightly builds, run with -Z macro-backtrace for more info)
+[1m[96mhelp[0m: a struct with a similar name exists
+    [1m[94m|[0m
+[1m[94m171[0m [91m- [0m    c::[91msockaddr_in6[0m {
+[1m[94m171[0m [92m+ [0m    c::[92msockaddr[0m {
+    [1m[94m|[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `AF_INET6` in crate `c`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/mod.rs:172:25
+    [1m[94m|[0m
+[1m[94m172[0m [1m[94m|[0m         sin6_family: c::AF_INET6 as c::sa_family_t,
+    [1m[94m|[0m                         [1m[91m^^^^^^^^[0m [1m[91mnot found in `c`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named constant `AF_INET` defined here
+   [1m[94m--> [0mthird_party/libc/src/unix/newlib/mod.rs:657:0
+[1m[96mhelp[0m: a constant with a similar name exists
+    [1m[94m|[0m
+[1m[94m172[0m [91m- [0m        sin6_family: c::[91mAF_INET6[0m as c::sa_family_t,
+[1m[94m172[0m [92m+ [0m        sin6_family: c::[92mAF_INET[0m as c::sa_family_t,
+    [1m[94m|[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr_in` in crate `c`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/mod.rs:181:35
+    [1m[94m|[0m
+[1m[94m181[0m [1m[94m|[0m fn socket_addr_v4_from_c(addr: c::sockaddr_in) -> SocketAddrV4 {
+    [1m[94m|[0m                                   [1m[91m^^^^^^^^^^^[0m [1m[91mnot found in `c`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named struct `sockaddr` defined here
+   [1m[94m--> [0mthird_party/libc/src/macros.rs:200:8
+   [1m[94m--> [0mthird_party/libc/src/unix/newlib/mod.rs:57:0
+   [1m[94m::: [0mthird_party/libc/src/unix/newlib/mod.rs:63:1
+    [1m[94m|[0m
+    [1m[94m= [0m[1mnote[0m: in this macro invocation
+    [1m[94m= [0m[1mnote[0m: this error originates in the macro `s` (in Nightly builds, run with -Z macro-backtrace for more info)
+[1m[96mhelp[0m: a struct with a similar name exists
+    [1m[94m|[0m
+[1m[94m181[0m [91m- [0mfn socket_addr_v4_from_c(addr: c::[91msockaddr_in[0m) -> SocketAddrV4 {
+[1m[94m181[0m [92m+ [0mfn socket_addr_v4_from_c(addr: c::[92msockaddr[0m) -> SocketAddrV4 {
+    [1m[94m|[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr_in6` in crate `c`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/mod.rs:185:35
+    [1m[94m|[0m
+[1m[94m185[0m [1m[94m|[0m fn socket_addr_v6_from_c(addr: c::sockaddr_in6) -> SocketAddrV6 {
+    [1m[94m|[0m                                   [1m[91m^^^^^^^^^^^^[0m [1m[91mnot found in `c`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named struct `sockaddr` defined here
+   [1m[94m--> [0mthird_party/libc/src/macros.rs:200:8
+   [1m[94m--> [0mthird_party/libc/src/unix/newlib/mod.rs:57:0
+   [1m[94m::: [0mthird_party/libc/src/unix/newlib/mod.rs:63:1
+    [1m[94m|[0m
+    [1m[94m= [0m[1mnote[0m: in this macro invocation
+    [1m[94m= [0m[1mnote[0m: this error originates in the macro `s` (in Nightly builds, run with -Z macro-backtrace for more info)
+[1m[96mhelp[0m: a struct with a similar name exists
+    [1m[94m|[0m
+[1m[94m185[0m [91m- [0mfn socket_addr_v6_from_c(addr: c::[91msockaddr_in6[0m) -> SocketAddrV6 {
+[1m[94m185[0m [92m+ [0mfn socket_addr_v6_from_c(addr: c::[92msockaddr[0m) -> SocketAddrV6 {
+    [1m[94m|[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr_in` in crate `c`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/mod.rs:200:12
+    [1m[94m|[0m
+[1m[94m200[0m [1m[94m|[0m     v4: c::sockaddr_in,
+    [1m[94m|[0m            [1m[91m^^^^^^^^^^^[0m [1m[91mnot found in `c`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named struct `sockaddr` defined here
+   [1m[94m--> [0mthird_party/libc/src/macros.rs:200:8
+   [1m[94m--> [0mthird_party/libc/src/unix/newlib/mod.rs:57:0
+   [1m[94m::: [0mthird_party/libc/src/unix/newlib/mod.rs:63:1
+    [1m[94m|[0m
+    [1m[94m= [0m[1mnote[0m: in this macro invocation
+    [1m[94m= [0m[1mnote[0m: this error originates in the macro `s` (in Nightly builds, run with -Z macro-backtrace for more info)
+[1m[96mhelp[0m: a struct with a similar name exists
+    [1m[94m|[0m
+[1m[94m200[0m [91m- [0m    v4: c::[91msockaddr_in[0m,
+[1m[94m200[0m [92m+ [0m    v4: c::[92msockaddr[0m,
+    [1m[94m|[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr_in6` in crate `c`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/mod.rs:201:12
+    [1m[94m|[0m
+[1m[94m201[0m [1m[94m|[0m     v6: c::sockaddr_in6,
+    [1m[94m|[0m            [1m[91m^^^^^^^^^^^^[0m [1m[91mnot found in `c`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named struct `sockaddr` defined here
+   [1m[94m--> [0mthird_party/libc/src/macros.rs:200:8
+   [1m[94m--> [0mthird_party/libc/src/unix/newlib/mod.rs:57:0
+   [1m[94m::: [0mthird_party/libc/src/unix/newlib/mod.rs:63:1
+    [1m[94m|[0m
+    [1m[94m= [0m[1mnote[0m: in this macro invocation
+    [1m[94m= [0m[1mnote[0m: this error originates in the macro `s` (in Nightly builds, run with -Z macro-backtrace for more info)
+[1m[96mhelp[0m: a struct with a similar name exists
+    [1m[94m|[0m
+[1m[94m201[0m [91m- [0m    v6: c::[91msockaddr_in6[0m,
+[1m[94m201[0m [92m+ [0m    v6: c::[92msockaddr[0m,
+    [1m[94m|[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr_in` in crate `c`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/mod.rs:214:37
+    [1m[94m|[0m
+[1m[94m214[0m [1m[94m|[0m             (sockaddr, size_of::<c::sockaddr_in>() as c::socklen_t)
+    [1m[94m|[0m                                     [1m[91m^^^^^^^^^^^[0m [1m[91mnot found in `c`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named struct `sockaddr` defined here
+   [1m[94m--> [0mthird_party/libc/src/macros.rs:200:8
+   [1m[94m--> [0mthird_party/libc/src/unix/newlib/mod.rs:57:0
+   [1m[94m::: [0mthird_party/libc/src/unix/newlib/mod.rs:63:1
+    [1m[94m|[0m
+    [1m[94m= [0m[1mnote[0m: in this macro invocation
+    [1m[94m= [0m[1mnote[0m: this error originates in the macro `s` (in Nightly builds, run with -Z macro-backtrace for more info)
+[1m[96mhelp[0m: a struct with a similar name exists
+    [1m[94m|[0m
+[1m[94m214[0m [91m- [0m            (sockaddr, size_of::<c::[91msockaddr_in[0m>() as c::socklen_t)
+[1m[94m214[0m [92m+ [0m            (sockaddr, size_of::<c::[92msockaddr[0m>() as c::socklen_t)
+    [1m[94m|[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr_in6` in crate `c`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/mod.rs:218:37
+    [1m[94m|[0m
+[1m[94m218[0m [1m[94m|[0m             (sockaddr, size_of::<c::sockaddr_in6>() as c::socklen_t)
+    [1m[94m|[0m                                     [1m[91m^^^^^^^^^^^^[0m [1m[91mnot found in `c`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named struct `sockaddr` defined here
+   [1m[94m--> [0mthird_party/libc/src/macros.rs:200:8
+   [1m[94m--> [0mthird_party/libc/src/unix/newlib/mod.rs:57:0
+   [1m[94m::: [0mthird_party/libc/src/unix/newlib/mod.rs:63:1
+    [1m[94m|[0m
+    [1m[94m= [0m[1mnote[0m: in this macro invocation
+    [1m[94m= [0m[1mnote[0m: this error originates in the macro `s` (in Nightly builds, run with -Z macro-backtrace for more info)
+[1m[96mhelp[0m: a struct with a similar name exists
+    [1m[94m|[0m
+[1m[94m218[0m [91m- [0m            (sockaddr, size_of::<c::[91msockaddr_in6[0m>() as c::socklen_t)
+[1m[94m218[0m [92m+ [0m            (sockaddr, size_of::<c::[92msockaddr[0m>() as c::socklen_t)
+    [1m[94m|[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `AF_INET6` in crate `c`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/mod.rs:226:34
+    [1m[94m|[0m
+[1m[94m226[0m [1m[94m|[0m         SocketAddr::V6(..) => c::AF_INET6,
+    [1m[94m|[0m                                  [1m[91m^^^^^^^^[0m [1m[91mnot found in `c`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named constant `AF_INET` defined here
+   [1m[94m--> [0mthird_party/libc/src/unix/newlib/mod.rs:657:0
+[1m[96mhelp[0m: a constant with a similar name exists
+    [1m[94m|[0m
+[1m[94m226[0m [91m- [0m        SocketAddr::V6(..) => c::[91mAF_INET6[0m,
+[1m[94m226[0m [92m+ [0m        SocketAddr::V6(..) => c::[92mAF_INET[0m,
+    [1m[94m|[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr_storage` in crate `c`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/mod.rs:236:24
+    [1m[94m|[0m
+[1m[94m236[0m [1m[94m|[0m     storage: *const c::sockaddr_storage,
+    [1m[94m|[0m                        [1m[91m^^^^^^^^^^^^^^^^[0m [1m[91mnot found in `c`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr_in` in crate `c`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/mod.rs:241:41
+    [1m[94m|[0m
+[1m[94m241[0m [1m[94m|[0m             assert!(len >= size_of::<c::sockaddr_in>());
+    [1m[94m|[0m                                         [1m[91m^^^^^^^^^^^[0m [1m[91mnot found in `c`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named struct `sockaddr` defined here
+   [1m[94m--> [0mthird_party/libc/src/macros.rs:200:8
+   [1m[94m--> [0mthird_party/libc/src/unix/newlib/mod.rs:57:0
+   [1m[94m::: [0mthird_party/libc/src/unix/newlib/mod.rs:63:1
+    [1m[94m|[0m
+    [1m[94m= [0m[1mnote[0m: in this macro invocation
+    [1m[94m= [0m[1mnote[0m: this error originates in the macro `s` (in Nightly builds, run with -Z macro-backtrace for more info)
+[1m[96mhelp[0m: a struct with a similar name exists
+    [1m[94m|[0m
+[1m[94m241[0m [91m- [0m            assert!(len >= size_of::<c::[91msockaddr_in[0m>());
+[1m[94m241[0m [92m+ [0m            assert!(len >= size_of::<c::[92msockaddr[0m>());
+    [1m[94m|[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr_in` in crate `c`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/mod.rs:243:52
+    [1m[94m|[0m
+[1m[94m243[0m [1m[94m|[0m                 *(storage as *const _ as *const c::sockaddr_in)
+    [1m[94m|[0m                                                    [1m[91m^^^^^^^^^^^[0m [1m[91mnot found in `c`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named struct `sockaddr` defined here
+   [1m[94m--> [0mthird_party/libc/src/macros.rs:200:8
+   [1m[94m--> [0mthird_party/libc/src/unix/newlib/mod.rs:57:0
+   [1m[94m::: [0mthird_party/libc/src/unix/newlib/mod.rs:63:1
+    [1m[94m|[0m
+    [1m[94m= [0m[1mnote[0m: in this macro invocation
+    [1m[94m= [0m[1mnote[0m: this error originates in the macro `s` (in Nightly builds, run with -Z macro-backtrace for more info)
+[1m[96mhelp[0m: a struct with a similar name exists
+    [1m[94m|[0m
+[1m[94m243[0m [91m- [0m                *(storage as *const _ as *const c::[91msockaddr_in[0m)
+[1m[94m243[0m [92m+ [0m                *(storage as *const _ as *const c::[92msockaddr[0m)
+    [1m[94m|[0m
+
+[1m[91merror[E0531][0m[1m: cannot find unit struct, unit variant or constant `AF_INET6` in crate `c`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/mod.rs:246:12
+    [1m[94m|[0m
+[1m[94m246[0m [1m[94m|[0m         c::AF_INET6 => {
+    [1m[94m|[0m            [1m[91m^^^^^^^^[0m [1m[91mnot found in `c`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named constant `AF_INET` defined here
+   [1m[94m--> [0mthird_party/libc/src/unix/newlib/mod.rs:657:0
+[1m[96mhelp[0m: a constant with a similar name exists
+    [1m[94m|[0m
+[1m[94m246[0m [91m- [0m        c::[91mAF_INET6[0m => {
+[1m[94m246[0m [92m+ [0m        c::[92mAF_INET[0m => {
+    [1m[94m|[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr_in6` in crate `c`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/mod.rs:247:41
+    [1m[94m|[0m
+[1m[94m247[0m [1m[94m|[0m             assert!(len >= size_of::<c::sockaddr_in6>());
+    [1m[94m|[0m                                         [1m[91m^^^^^^^^^^^^[0m [1m[91mnot found in `c`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named struct `sockaddr` defined here
+   [1m[94m--> [0mthird_party/libc/src/macros.rs:200:8
+   [1m[94m--> [0mthird_party/libc/src/unix/newlib/mod.rs:57:0
+   [1m[94m::: [0mthird_party/libc/src/unix/newlib/mod.rs:63:1
+    [1m[94m|[0m
+    [1m[94m= [0m[1mnote[0m: in this macro invocation
+    [1m[94m= [0m[1mnote[0m: this error originates in the macro `s` (in Nightly builds, run with -Z macro-backtrace for more info)
+[1m[96mhelp[0m: a struct with a similar name exists
+    [1m[94m|[0m
+[1m[94m247[0m [91m- [0m            assert!(len >= size_of::<c::[91msockaddr_in6[0m>());
+[1m[94m247[0m [92m+ [0m            assert!(len >= size_of::<c::[92msockaddr[0m>());
+    [1m[94m|[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr_in6` in crate `c`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/mod.rs:249:52
+    [1m[94m|[0m
+[1m[94m249[0m [1m[94m|[0m                 *(storage as *const _ as *const c::sockaddr_in6)
+    [1m[94m|[0m                                                    [1m[91m^^^^^^^^^^^^[0m [1m[91mnot found in `c`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named struct `sockaddr` defined here
+   [1m[94m--> [0mthird_party/libc/src/macros.rs:200:8
+   [1m[94m--> [0mthird_party/libc/src/unix/newlib/mod.rs:57:0
+   [1m[94m::: [0mthird_party/libc/src/unix/newlib/mod.rs:63:1
+    [1m[94m|[0m
+    [1m[94m= [0m[1mnote[0m: in this macro invocation
+    [1m[94m= [0m[1mnote[0m: this error originates in the macro `s` (in Nightly builds, run with -Z macro-backtrace for more info)
+[1m[96mhelp[0m: a struct with a similar name exists
+    [1m[94m|[0m
+[1m[94m249[0m [91m- [0m                *(storage as *const _ as *const c::[91msockaddr_in6[0m)
+[1m[94m249[0m [92m+ [0m                *(storage as *const _ as *const c::[92msockaddr[0m)
+    [1m[94m|[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr_storage` in crate `c`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/mod.rs:332:40
+    [1m[94m|[0m
+[1m[94m332[0m [1m[94m|[0m     let mut storage = MaybeUninit::<c::sockaddr_storage>::zeroed();
+    [1m[94m|[0m                                        [1m[91m^^^^^^^^^^^^^^^^[0m [1m[91mnot found in `c`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr_storage` in crate `c`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/mod.rs:333:32
+    [1m[94m|[0m
+[1m[94m333[0m [1m[94m|[0m     let mut len = size_of::<c::sockaddr_storage>() as c::socklen_t;
+    [1m[94m|[0m                                [1m[91m^^^^^^^^^^^^^^^^[0m [1m[91mnot found in `c`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `SOL_SOCKET` in crate `c`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/mod.rs:647:38
+    [1m[94m|[0m
+[1m[94m647[0m [1m[94m|[0m [1m[94m...[0m   setsockopt(&sock, c::SOL_SOCKET, c::SO_REUSEADDR, 1 as c_int)?
+    [1m[94m|[0m                            [1m[91m^^^^^^^^^^[0m [1m[91mnot found in `c`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr_storage` in crate `c`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/mod.rs:691:44
+    [1m[94m|[0m
+[1m[94m691[0m [1m[94m|[0m         let mut storage = MaybeUninit::<c::sockaddr_storage>::uninit();
+    [1m[94m|[0m                                            [1m[91m^^^^^^^^^^^^^^^^[0m [1m[91mnot found in `c`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find type `sockaddr_storage` in crate `c`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/mod.rs:692:36
+    [1m[94m|[0m
+[1m[94m692[0m [1m[94m|[0m         let mut len = size_of::<c::sockaddr_storage>() as c::socklen_t;
+    [1m[94m|[0m                                    [1m[91m^^^^^^^^^^^^^^^^[0m [1m[91mnot found in `c`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `SOL_SOCKET` in crate `c`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/mod.rs:856:45
+    [1m[94m|[0m
+[1m[94m856[0m [1m[94m|[0m [1m[94m...[0mopt(&self.inner, c::SOL_SOCKET, c::SO_BROADCAST, broadcast as c_int) }
+    [1m[94m|[0m                        [1m[91m^^^^^^^^^^[0m [1m[91mnot found in `c`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `SOL_SOCKET` in crate `c`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/net/connection/socket/mod.rs:860:62
+    [1m[94m|[0m
+[1m[94m860[0m [1m[94m|[0m [1m[94m...[0mopt(&self.inner, c::SOL_SOCKET, c::SO_BROADCAST)? };
+    [1m[94m|[0m                        [1m[91m^^^^^^^^^^[0m [1m[91mnot found in `c`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `POLLIN` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/common.rs:653:27
+    [1m[94m|[0m
+[1m[94m653[0m [1m[94m|[0m     fds[0].events = libc::POLLIN;
+    [1m[94m|[0m                           [1m[91m^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `POLLIN` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/common.rs:655:27
+    [1m[94m|[0m
+[1m[94m655[0m [1m[94m|[0m     fds[1].events = libc::POLLIN;
+    [1m[94m|[0m                           [1m[91m^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find function `setgroups` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:305:27
+    [1m[94m|[0m
+[1m[94m305[0m [1m[94m|[0m [1m[94m...[0m   cvt(libc::setgroups(_g.len().try_into().unwrap(), _g.as_ptr()))?;
+    [1m[94m|[0m                 [1m[91m^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named function `getgroups` defined here
+   [1m[94m--> [0mthird_party/libc/src/unix/mod.rs:1184:4
+[1m[96mhelp[0m: a function with a similar name exists
+    [1m[94m|[0m
+[1m[94m305[0m [91m- [0m                cvt(libc::[91msetgroups[0m(_g.len().try_into().unwrap(), _g.as_ptr()))?;
+[1m[94m305[0m [92m+ [0m                cvt(libc::[92mgetgroups[0m(_g.len().try_into().unwrap(), _g.as_ptr()))?;
+    [1m[94m|[0m
+
+[1m[91merror[E0425][0m[1m: cannot find function `setgroups` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:320:41
+    [1m[94m|[0m
+[1m[94m320[0m [1m[94m|[0m                     let res = cvt(libc::setgroups(0, crate::ptr::null()));
+    [1m[94m|[0m                                         [1m[91m^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named function `getgroups` defined here
+   [1m[94m--> [0mthird_party/libc/src/unix/mod.rs:1184:4
+[1m[96mhelp[0m: a function with a similar name exists
+    [1m[94m|[0m
+[1m[94m320[0m [91m- [0m                    let res = cvt(libc::[91msetgroups[0m(0, crate::ptr::null()));
+[1m[94m320[0m [92m+ [0m                    let res = cvt(libc::[92mgetgroups[0m(0, crate::ptr::null()));
+    [1m[94m|[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `SIGPIPE` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:373:49
+    [1m[94m|[0m
+[1m[94m373[0m [1m[94m|[0m                     let ret = sys::signal(libc::SIGPIPE, libc::SIG_DFL);
+    [1m[94m|[0m                                                 [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `SIGKILL` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1002:32
+     [1m[94m|[0m
+[1m[94m1002[0m [1m[94m|[0m         self.send_signal(libc::SIGKILL)
+     [1m[94m|[0m                                [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `WNOHANG` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1063:75
+     [1m[94m|[0m
+[1m[94m1063[0m [1m[94m|[0m [1m[94m...[0m &mut status, libc::WNOHANG) })?;
+     [1m[94m|[0m                        [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find function, tuple struct or tuple variant `WIFEXITED` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1100:15
+     [1m[94m|[0m
+[1m[94m1100[0m [1m[94m|[0m         libc::WIFEXITED(self.0)
+     [1m[94m|[0m               [1m[91m^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find function, tuple struct or tuple variant `WEXITSTATUS` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1116:37
+     [1m[94m|[0m
+[1m[94m1116[0m [1m[94m|[0m         self.exited().then(|| libc::WEXITSTATUS(self.0))
+     [1m[94m|[0m                                     [1m[91m^^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find function, tuple struct or tuple variant `WIFSIGNALED` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1120:15
+     [1m[94m|[0m
+[1m[94m1120[0m [1m[94m|[0m         libc::WIFSIGNALED(self.0).then(|| libc::WTERMSIG(self.0))
+     [1m[94m|[0m               [1m[91m^^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find function, tuple struct or tuple variant `WTERMSIG` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1120:49
+     [1m[94m|[0m
+[1m[94m1120[0m [1m[94m|[0m         libc::WIFSIGNALED(self.0).then(|| libc::WTERMSIG(self.0))
+     [1m[94m|[0m                                                 [1m[91m^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find function, tuple struct or tuple variant `WIFSIGNALED` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1124:15
+     [1m[94m|[0m
+[1m[94m1124[0m [1m[94m|[0m         libc::WIFSIGNALED(self.0) && libc::WCOREDUMP(self.0)
+     [1m[94m|[0m               [1m[91m^^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find function, tuple struct or tuple variant `WCOREDUMP` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1124:44
+     [1m[94m|[0m
+[1m[94m1124[0m [1m[94m|[0m         libc::WIFSIGNALED(self.0) && libc::WCOREDUMP(self.0)
+     [1m[94m|[0m                                            [1m[91m^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find function, tuple struct or tuple variant `WIFSTOPPED` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1128:15
+     [1m[94m|[0m
+[1m[94m1128[0m [1m[94m|[0m         libc::WIFSTOPPED(self.0).then(|| libc::WSTOPSIG(self.0))
+     [1m[94m|[0m               [1m[91m^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find function, tuple struct or tuple variant `WSTOPSIG` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1128:48
+     [1m[94m|[0m
+[1m[94m1128[0m [1m[94m|[0m         libc::WIFSTOPPED(self.0).then(|| libc::WSTOPSIG(self.0))
+     [1m[94m|[0m                                                [1m[91m^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find function, tuple struct or tuple variant `WIFCONTINUED` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1132:15
+     [1m[94m|[0m
+[1m[94m1132[0m [1m[94m|[0m         libc::WIFCONTINUED(self.0)
+     [1m[94m|[0m               [1m[91m^^^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0531][0m[1m: cannot find unit struct, unit variant or constant `SIGHUP` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1155:15
+     [1m[94m|[0m
+[1m[94m1155[0m [1m[94m|[0m         libc::SIGHUP => "SIGHUP",
+     [1m[94m|[0m               [1m[91m^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0531][0m[1m: cannot find unit struct, unit variant or constant `SIGINT` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1156:15
+     [1m[94m|[0m
+[1m[94m1156[0m [1m[94m|[0m         libc::SIGINT => "SIGINT",
+     [1m[94m|[0m               [1m[91m^^^^^^[0m [1m[91mnot found in `libc`[0m
+     [1m[94m|[0m
+[1m[92mnote[0m: similarly named constant `SIGIOT` defined here
+    [1m[94m--> [0mthird_party/libc/src/unix/mod.rs:304:0
+[1m[96mhelp[0m: a constant with a similar name exists
+     [1m[94m|[0m
+[1m[94m1156[0m [91m- [0m        libc::[91mSIGINT[0m => "SIGINT",
+[1m[94m1156[0m [92m+ [0m        libc::[92mSIGIOT[0m => "SIGINT",
+     [1m[94m|[0m
+
+[1m[91merror[E0531][0m[1m: cannot find unit struct, unit variant or constant `SIGQUIT` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1157:15
+     [1m[94m|[0m
+[1m[94m1157[0m [1m[94m|[0m         libc::SIGQUIT => "SIGQUIT",
+     [1m[94m|[0m               [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0531][0m[1m: cannot find unit struct, unit variant or constant `SIGILL` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1158:15
+     [1m[94m|[0m
+[1m[94m1158[0m [1m[94m|[0m         libc::SIGILL => "SIGILL",
+     [1m[94m|[0m               [1m[91m^^^^^^[0m [1m[91mnot found in `libc`[0m
+     [1m[94m|[0m
+[1m[92mnote[0m: similarly named constant `SIGIOT` defined here
+    [1m[94m--> [0mthird_party/libc/src/unix/mod.rs:304:0
+[1m[96mhelp[0m: a constant with a similar name exists
+     [1m[94m|[0m
+[1m[94m1158[0m [91m- [0m        libc::[91mSIGILL[0m => "SIGILL",
+[1m[94m1158[0m [92m+ [0m        libc::[92mSIGIOT[0m => "SIGILL",
+     [1m[94m|[0m
+
+[1m[91merror[E0531][0m[1m: cannot find unit struct, unit variant or constant `SIGTRAP` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1159:15
+     [1m[94m|[0m
+[1m[94m1159[0m [1m[94m|[0m         libc::SIGTRAP => "SIGTRAP",
+     [1m[94m|[0m               [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0531][0m[1m: cannot find unit struct, unit variant or constant `SIGABRT` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1160:15
+     [1m[94m|[0m
+[1m[94m1160[0m [1m[94m|[0m         libc::SIGABRT => "SIGABRT",
+     [1m[94m|[0m               [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0531][0m[1m: cannot find unit struct, unit variant or constant `SIGBUS` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1162:15
+     [1m[94m|[0m
+[1m[94m1162[0m [1m[94m|[0m         libc::SIGBUS => "SIGBUS",
+     [1m[94m|[0m               [1m[91m^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0531][0m[1m: cannot find unit struct, unit variant or constant `SIGFPE` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1163:15
+     [1m[94m|[0m
+[1m[94m1163[0m [1m[94m|[0m         libc::SIGFPE => "SIGFPE",
+     [1m[94m|[0m               [1m[91m^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0531][0m[1m: cannot find unit struct, unit variant or constant `SIGKILL` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1164:15
+     [1m[94m|[0m
+[1m[94m1164[0m [1m[94m|[0m         libc::SIGKILL => "SIGKILL",
+     [1m[94m|[0m               [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0531][0m[1m: cannot find unit struct, unit variant or constant `SIGUSR1` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1166:15
+     [1m[94m|[0m
+[1m[94m1166[0m [1m[94m|[0m         libc::SIGUSR1 => "SIGUSR1",
+     [1m[94m|[0m               [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0531][0m[1m: cannot find unit struct, unit variant or constant `SIGSEGV` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1167:15
+     [1m[94m|[0m
+[1m[94m1167[0m [1m[94m|[0m         libc::SIGSEGV => "SIGSEGV",
+     [1m[94m|[0m               [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0531][0m[1m: cannot find unit struct, unit variant or constant `SIGUSR2` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1169:15
+     [1m[94m|[0m
+[1m[94m1169[0m [1m[94m|[0m         libc::SIGUSR2 => "SIGUSR2",
+     [1m[94m|[0m               [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0531][0m[1m: cannot find unit struct, unit variant or constant `SIGPIPE` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1170:15
+     [1m[94m|[0m
+[1m[94m1170[0m [1m[94m|[0m         libc::SIGPIPE => "SIGPIPE",
+     [1m[94m|[0m               [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0531][0m[1m: cannot find unit struct, unit variant or constant `SIGALRM` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1171:15
+     [1m[94m|[0m
+[1m[94m1171[0m [1m[94m|[0m         libc::SIGALRM => "SIGALRM",
+     [1m[94m|[0m               [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0531][0m[1m: cannot find unit struct, unit variant or constant `SIGTERM` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1172:15
+     [1m[94m|[0m
+[1m[94m1172[0m [1m[94m|[0m         libc::SIGTERM => "SIGTERM",
+     [1m[94m|[0m               [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+     [1m[94m|[0m
+[1m[92mnote[0m: similarly named constant `SIG_ERR` defined here
+    [1m[94m--> [0mthird_party/libc/src/unix/mod.rs:270:0
+[1m[96mhelp[0m: a constant with a similar name exists
+     [1m[94m|[0m
+[1m[94m1172[0m [91m- [0m        libc::[91mSIGTERM[0m => "SIGTERM",
+[1m[94m1172[0m [92m+ [0m        libc::[92mSIG_ERR[0m => "SIGTERM",
+     [1m[94m|[0m
+
+[1m[91merror[E0531][0m[1m: cannot find unit struct, unit variant or constant `SIGCHLD` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1174:15
+     [1m[94m|[0m
+[1m[94m1174[0m [1m[94m|[0m         libc::SIGCHLD => "SIGCHLD",
+     [1m[94m|[0m               [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0531][0m[1m: cannot find unit struct, unit variant or constant `SIGCONT` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1176:15
+     [1m[94m|[0m
+[1m[94m1176[0m [1m[94m|[0m         libc::SIGCONT => "SIGCONT",
+     [1m[94m|[0m               [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+     [1m[94m|[0m
+[1m[92mnote[0m: similarly named constant `SIGIOT` defined here
+    [1m[94m--> [0mthird_party/libc/src/unix/mod.rs:304:0
+[1m[96mhelp[0m: a constant with a similar name exists
+     [1m[94m|[0m
+[1m[94m1176[0m [91m- [0m        libc::[91mSIGCONT[0m => "SIGCONT",
+[1m[94m1176[0m [92m+ [0m        libc::[92mSIGIOT[0m => "SIGCONT",
+     [1m[94m|[0m
+
+[1m[91merror[E0531][0m[1m: cannot find unit struct, unit variant or constant `SIGSTOP` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1178:15
+     [1m[94m|[0m
+[1m[94m1178[0m [1m[94m|[0m         libc::SIGSTOP => "SIGSTOP",
+     [1m[94m|[0m               [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0531][0m[1m: cannot find unit struct, unit variant or constant `SIGTSTP` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1180:15
+     [1m[94m|[0m
+[1m[94m1180[0m [1m[94m|[0m         libc::SIGTSTP => "SIGTSTP",
+     [1m[94m|[0m               [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0531][0m[1m: cannot find unit struct, unit variant or constant `SIGTTIN` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1182:15
+     [1m[94m|[0m
+[1m[94m1182[0m [1m[94m|[0m         libc::SIGTTIN => "SIGTTIN",
+     [1m[94m|[0m               [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0531][0m[1m: cannot find unit struct, unit variant or constant `SIGTTOU` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1184:15
+     [1m[94m|[0m
+[1m[94m1184[0m [1m[94m|[0m         libc::SIGTTOU => "SIGTTOU",
+     [1m[94m|[0m               [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0531][0m[1m: cannot find unit struct, unit variant or constant `SIGURG` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1186:15
+     [1m[94m|[0m
+[1m[94m1186[0m [1m[94m|[0m         libc::SIGURG => "SIGURG",
+     [1m[94m|[0m               [1m[91m^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0531][0m[1m: cannot find unit struct, unit variant or constant `SIGXCPU` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1188:15
+     [1m[94m|[0m
+[1m[94m1188[0m [1m[94m|[0m         libc::SIGXCPU => "SIGXCPU",
+     [1m[94m|[0m               [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0531][0m[1m: cannot find unit struct, unit variant or constant `SIGXFSZ` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1190:15
+     [1m[94m|[0m
+[1m[94m1190[0m [1m[94m|[0m         libc::SIGXFSZ => "SIGXFSZ",
+     [1m[94m|[0m               [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0531][0m[1m: cannot find unit struct, unit variant or constant `SIGVTALRM` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1192:15
+     [1m[94m|[0m
+[1m[94m1192[0m [1m[94m|[0m         libc::SIGVTALRM => "SIGVTALRM",
+     [1m[94m|[0m               [1m[91m^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0531][0m[1m: cannot find unit struct, unit variant or constant `SIGPROF` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1194:15
+     [1m[94m|[0m
+[1m[94m1194[0m [1m[94m|[0m         libc::SIGPROF => "SIGPROF",
+     [1m[94m|[0m               [1m[91m^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0531][0m[1m: cannot find unit struct, unit variant or constant `SIGWINCH` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1196:15
+     [1m[94m|[0m
+[1m[94m1196[0m [1m[94m|[0m         libc::SIGWINCH => "SIGWINCH",
+     [1m[94m|[0m               [1m[91m^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0531][0m[1m: cannot find unit struct, unit variant or constant `SIGIO` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1198:15
+     [1m[94m|[0m
+[1m[94m1198[0m [1m[94m|[0m         libc::SIGIO => "SIGIO",
+     [1m[94m|[0m               [1m[91m^^^^^[0m [1m[91mnot found in `libc`[0m
+     [1m[94m|[0m
+[1m[92mnote[0m: similarly named constant `SIGIOT` defined here
+    [1m[94m--> [0mthird_party/libc/src/unix/mod.rs:304:0
+[1m[96mhelp[0m: a constant with a similar name exists
+     [1m[94m|[0m
+[1m[94m1198[0m [1m[94m| [0m        libc::SIGIO[92mT[0m => "SIGIO",
+     [1m[94m|[0m                    [92m+[0m
+
+[1m[91merror[E0531][0m[1m: cannot find unit struct, unit variant or constant `SIGSYS` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/process/unix/unix.rs:1202:15
+     [1m[94m|[0m
+[1m[94m1202[0m [1m[94m|[0m         libc::SIGSYS => "SIGSYS",
+     [1m[94m|[0m               [1m[91m^^^^^^[0m [1m[91mnot found in `libc`[0m
+
+[1m[91merror[E0425][0m[1m: cannot find function `pthread_create` in crate `libc`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread/unix.rs:107:25
+    [1m[94m|[0m
+[1m[94m107[0m [1m[94m|[0m [1m[94m...[0m   let ret = libc::pthread_create(&mut native, attr.get(), thread_st[1m[94m...[0m
+    [1m[94m|[0m                       [1m[91m^^^^^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+    [1m[94m|[0m
+[1m[92mnote[0m: similarly named function `pthread_key_create` defined here
+   [1m[94m--> [0mthird_party/libc/src/unix/mod.rs:1397:4
+[1m[96mhelp[0m: a function with a similar name exists
+    [1m[94m|[0m
+[1m[94m107[0m [1m[94m| [0m        let ret = libc::pthread_[92mkey_[0mcreate(&mut native, attr.get(), thread_start, data as *mut _);
+    [1m[94m|[0m                                 [92m++++[0m
+
+[1m[91merror[E0425][0m[1m: cannot find value `PTHREAD_STACK_MIN` in crate `libc`[0m
+    [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/thread/unix.rs:1085:11
+     [1m[94m|[0m
+[1m[94m1085[0m [1m[94m|[0m     libc::PTHREAD_STACK_MIN
+     [1m[94m|[0m           [1m[91m^^^^^^^^^^^^^^^^^[0m [1m[91mnot found in `libc`[0m
+     [1m[94m|[0m
+[1m[92mnote[0m: similarly named constant `_SC_THREAD_STACK_MIN` defined here
+    [1m[94m--> [0mthird_party/libc/src/new/newlib/unistd.rs:50:0
+[1m[96mhelp[0m: a constant with a similar name exists
+     [1m[94m|[0m
+[1m[94m1085[0m [91m- [0m    libc::[91mPTHREAD_STACK_MIN[0m
+[1m[94m1085[0m [92m+ [0m    libc::[92m_SC_THREAD_STACK_MIN[0m
+     [1m[94m|[0m
+
+[1m[91merror[E0599][0m[1m: no method named `st_dev` found for reference `&fs::Metadata` in the current scope[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/fs.rs:876:14
+    [1m[94m|[0m
+[1m[94m876[0m [1m[94m|[0m         self.st_dev()
+    [1m[94m|[0m              [1m[91m^^^^^^[0m
+    [1m[94m|[0m
+[1m[96mhelp[0m: there is a method `dev` with a similar name
+    [1m[94m|[0m
+[1m[94m876[0m [91m- [0m        self.[91mst_dev[0m()
+[1m[94m876[0m [92m+ [0m        self.[92mdev[0m()
+    [1m[94m|[0m
+
+[1m[91merror[E0599][0m[1m: no method named `st_ino` found for reference `&fs::Metadata` in the current scope[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/fs.rs:879:14
+    [1m[94m|[0m
+[1m[94m879[0m [1m[94m|[0m         self.st_ino()
+    [1m[94m|[0m              [1m[91m^^^^^^[0m
+    [1m[94m|[0m
+[1m[96mhelp[0m: there is a method `ino` with a similar name
+    [1m[94m|[0m
+[1m[94m879[0m [91m- [0m        self.[91mst_ino[0m()
+[1m[94m879[0m [92m+ [0m        self.[92mino[0m()
+    [1m[94m|[0m
+
+[1m[91merror[E0599][0m[1m: no method named `st_mode` found for reference `&fs::Metadata` in the current scope[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/fs.rs:882:14
+    [1m[94m|[0m
+[1m[94m882[0m [1m[94m|[0m         self.st_mode()
+    [1m[94m|[0m              [1m[91m^^^^^^^[0m
+    [1m[94m|[0m
+[1m[96mhelp[0m: there is a method `mode` with a similar name
+    [1m[94m|[0m
+[1m[94m882[0m [91m- [0m        self.[91mst_mode[0m()
+[1m[94m882[0m [92m+ [0m        self.[92mmode[0m()
+    [1m[94m|[0m
+
+[1m[91merror[E0599][0m[1m: no method named `st_nlink` found for reference `&fs::Metadata` in the current scope[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/fs.rs:885:14
+    [1m[94m|[0m
+[1m[94m885[0m [1m[94m|[0m         self.st_nlink()
+    [1m[94m|[0m              [1m[91m^^^^^^^^[0m
+    [1m[94m|[0m
+[1m[96mhelp[0m: there is a method `nlink` with a similar name
+    [1m[94m|[0m
+[1m[94m885[0m [91m- [0m        self.[91mst_nlink[0m()
+[1m[94m885[0m [92m+ [0m        self.[92mnlink[0m()
+    [1m[94m|[0m
+
+[1m[91merror[E0599][0m[1m: no method named `st_uid` found for reference `&fs::Metadata` in the current scope[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/fs.rs:888:14
+    [1m[94m|[0m
+[1m[94m888[0m [1m[94m|[0m         self.st_uid()
+    [1m[94m|[0m              [1m[91m^^^^^^[0m
+    [1m[94m|[0m
+[1m[96mhelp[0m: there is a method `uid` with a similar name
+    [1m[94m|[0m
+[1m[94m888[0m [91m- [0m        self.[91mst_uid[0m()
+[1m[94m888[0m [92m+ [0m        self.[92muid[0m()
+    [1m[94m|[0m
+
+[1m[91merror[E0599][0m[1m: no method named `st_gid` found for reference `&fs::Metadata` in the current scope[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/fs.rs:891:14
+    [1m[94m|[0m
+[1m[94m891[0m [1m[94m|[0m         self.st_gid()
+    [1m[94m|[0m              [1m[91m^^^^^^[0m
+    [1m[94m|[0m
+[1m[96mhelp[0m: there is a method `gid` with a similar name
+    [1m[94m|[0m
+[1m[94m891[0m [91m- [0m        self.[91mst_gid[0m()
+[1m[94m891[0m [92m+ [0m        self.[92mgid[0m()
+    [1m[94m|[0m
+
+[1m[91merror[E0599][0m[1m: no method named `st_rdev` found for reference `&fs::Metadata` in the current scope[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/fs.rs:894:14
+    [1m[94m|[0m
+[1m[94m894[0m [1m[94m|[0m         self.st_rdev()
+    [1m[94m|[0m              [1m[91m^^^^^^^[0m
+    [1m[94m|[0m
+[1m[96mhelp[0m: there is a method `rdev` with a similar name
+    [1m[94m|[0m
+[1m[94m894[0m [91m- [0m        self.[91mst_rdev[0m()
+[1m[94m894[0m [92m+ [0m        self.[92mrdev[0m()
+    [1m[94m|[0m
+
+[1m[91merror[E0599][0m[1m: no method named `st_size` found for reference `&fs::Metadata` in the current scope[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/fs.rs:897:14
+    [1m[94m|[0m
+[1m[94m897[0m [1m[94m|[0m         self.st_size()
+    [1m[94m|[0m              [1m[91m^^^^^^^[0m
+    [1m[94m|[0m
+[1m[96mhelp[0m: there is a method `size` with a similar name
+    [1m[94m|[0m
+[1m[94m897[0m [91m- [0m        self.[91mst_size[0m()
+[1m[94m897[0m [92m+ [0m        self.[92msize[0m()
+    [1m[94m|[0m
+
+[1m[91merror[E0599][0m[1m: no method named `st_atime` found for reference `&fs::Metadata` in the current scope[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/fs.rs:900:14
+    [1m[94m|[0m
+[1m[94m900[0m [1m[94m|[0m         self.st_atime()
+    [1m[94m|[0m              [1m[91m^^^^^^^^[0m
+    [1m[94m|[0m
+[1m[96mhelp[0m: there is a method `atime` with a similar name
+    [1m[94m|[0m
+[1m[94m900[0m [91m- [0m        self.[91mst_atime[0m()
+[1m[94m900[0m [92m+ [0m        self.[92matime[0m()
+    [1m[94m|[0m
+
+[1m[91merror[E0599][0m[1m: no method named `st_atime_nsec` found for reference `&fs::Metadata` in the current scope[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/fs.rs:903:14
+    [1m[94m|[0m
+[1m[94m903[0m [1m[94m|[0m         self.st_atime_nsec()
+    [1m[94m|[0m              [1m[91m^^^^^^^^^^^^^[0m
+    [1m[94m|[0m
+[1m[96mhelp[0m: there is a method `atime_nsec` with a similar name
+    [1m[94m|[0m
+[1m[94m903[0m [91m- [0m        self.[91mst_atime_nsec[0m()
+[1m[94m903[0m [92m+ [0m        self.[92matime_nsec[0m()
+    [1m[94m|[0m
+
+[1m[91merror[E0599][0m[1m: no method named `st_mtime` found for reference `&fs::Metadata` in the current scope[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/fs.rs:906:14
+    [1m[94m|[0m
+[1m[94m906[0m [1m[94m|[0m         self.st_mtime()
+    [1m[94m|[0m              [1m[91m^^^^^^^^[0m
+    [1m[94m|[0m
+[1m[96mhelp[0m: there is a method `mtime` with a similar name
+    [1m[94m|[0m
+[1m[94m906[0m [91m- [0m        self.[91mst_mtime[0m()
+[1m[94m906[0m [92m+ [0m        self.[92mmtime[0m()
+    [1m[94m|[0m
+
+[1m[91merror[E0599][0m[1m: no method named `st_mtime_nsec` found for reference `&fs::Metadata` in the current scope[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/fs.rs:909:14
+    [1m[94m|[0m
+[1m[94m909[0m [1m[94m|[0m         self.st_mtime_nsec()
+    [1m[94m|[0m              [1m[91m^^^^^^^^^^^^^[0m
+    [1m[94m|[0m
+[1m[96mhelp[0m: there is a method `mtime_nsec` with a similar name
+    [1m[94m|[0m
+[1m[94m909[0m [91m- [0m        self.[91mst_mtime_nsec[0m()
+[1m[94m909[0m [92m+ [0m        self.[92mmtime_nsec[0m()
+    [1m[94m|[0m
+
+[1m[91merror[E0599][0m[1m: no method named `st_ctime` found for reference `&fs::Metadata` in the current scope[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/fs.rs:912:14
+    [1m[94m|[0m
+[1m[94m912[0m [1m[94m|[0m         self.st_ctime()
+    [1m[94m|[0m              [1m[91m^^^^^^^^[0m
+    [1m[94m|[0m
+[1m[96mhelp[0m: there is a method `ctime` with a similar name
+    [1m[94m|[0m
+[1m[94m912[0m [91m- [0m        self.[91mst_ctime[0m()
+[1m[94m912[0m [92m+ [0m        self.[92mctime[0m()
+    [1m[94m|[0m
+
+[1m[91merror[E0599][0m[1m: no method named `st_ctime_nsec` found for reference `&fs::Metadata` in the current scope[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/fs.rs:915:14
+    [1m[94m|[0m
+[1m[94m915[0m [1m[94m|[0m         self.st_ctime_nsec()
+    [1m[94m|[0m              [1m[91m^^^^^^^^^^^^^[0m
+    [1m[94m|[0m
+[1m[96mhelp[0m: there is a method `ctime_nsec` with a similar name
+    [1m[94m|[0m
+[1m[94m915[0m [91m- [0m        self.[91mst_ctime_nsec[0m()
+[1m[94m915[0m [92m+ [0m        self.[92mctime_nsec[0m()
+    [1m[94m|[0m
+
+[1m[91merror[E0599][0m[1m: no method named `st_blksize` found for reference `&fs::Metadata` in the current scope[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/fs.rs:918:14
+    [1m[94m|[0m
+[1m[94m918[0m [1m[94m|[0m         self.st_blksize()
+    [1m[94m|[0m              [1m[91m^^^^^^^^^^[0m
+    [1m[94m|[0m
+[1m[96mhelp[0m: there is a method `blksize` with a similar name
+    [1m[94m|[0m
+[1m[94m918[0m [91m- [0m        self.[91mst_blksize[0m()
+[1m[94m918[0m [92m+ [0m        self.[92mblksize[0m()
+    [1m[94m|[0m
+
+[1m[91merror[E0599][0m[1m: no method named `st_blocks` found for reference `&fs::Metadata` in the current scope[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/os/unix/fs.rs:921:14
+    [1m[94m|[0m
+[1m[94m921[0m [1m[94m|[0m         self.st_blocks()
+    [1m[94m|[0m              [1m[91m^^^^^^^^^[0m
+    [1m[94m|[0m
+[1m[96mhelp[0m: there is a method `blocks` with a similar name
+    [1m[94m|[0m
+[1m[94m921[0m [91m- [0m        self.[91mst_blocks[0m()
+[1m[94m921[0m [92m+ [0m        self.[92mblocks[0m()
+    [1m[94m|[0m
+
+[1m[91merror[E0433][0m[1m: cannot find module or crate `imp` in this scope[0m
+  [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/args/unix.rs:22:24
+   [1m[94m|[0m
+[1m[94m22[0m [1m[94m|[0m     let (argc, argv) = imp::argc_argv();
+   [1m[94m|[0m                        [1m[91m^^^[0m [1m[91muse of unresolved module or unlinked crate `imp`[0m
+   [1m[94m|[0m
+   [1m[94m= [0m[1mhelp[0m: if you wanted to use a crate named `imp`, use `cargo add imp` to add it to your `Cargo.toml`
+
+[1m[91merror[E0609][0m[1m: no field `st_mtime` on type `stat`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/fs/unix.rs:586:35
+    [1m[94m|[0m
+[1m[94m586[0m [1m[94m|[0m [1m[94m...[0m   SystemTime::new(self.stat.st_mtime as i64, self.stat.st_mtime_nse[1m[94m...[0m
+    [1m[94m|[0m                                 [1m[91m^^^^^^^^[0m [1m[91munknown field[0m
+    [1m[94m|[0m
+[1m[96mhelp[0m: a field with a similar name exists
+    [1m[94m|[0m
+[1m[94m586[0m [91m- [0m        SystemTime::new(self.stat.[91mst_mtime[0m as i64, self.stat.st_mtime_nsec as i64)
+[1m[94m586[0m [92m+ [0m        SystemTime::new(self.stat.[92mst_mtim[0m as i64, self.stat.st_mtime_nsec as i64)
+    [1m[94m|[0m
+
+[1m[91merror[E0609][0m[1m: no field `st_mtime_nsec` on type `stat`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/fs/unix.rs:586:62
+    [1m[94m|[0m
+[1m[94m586[0m [1m[94m|[0m [1m[94m...[0me as i64, self.stat.st_mtime_nsec as i64)
+    [1m[94m|[0m                        [1m[91m^^^^^^^^^^^^^[0m [1m[91munknown field[0m
+    [1m[94m|[0m
+    [1m[94m= [0m[1mnote[0m: available fields are: `st_dev`, `st_ino`, `st_mode`, `st_nlink`, `st_uid` ... and 9 others
+
+[1m[91merror[E0609][0m[1m: no field `st_atime` on type `stat`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/fs/unix.rs:626:35
+    [1m[94m|[0m
+[1m[94m626[0m [1m[94m|[0m [1m[94m...[0m   SystemTime::new(self.stat.st_atime as i64, self.stat.st_atime_nse[1m[94m...[0m
+    [1m[94m|[0m                                 [1m[91m^^^^^^^^[0m [1m[91munknown field[0m
+    [1m[94m|[0m
+[1m[96mhelp[0m: a field with a similar name exists
+    [1m[94m|[0m
+[1m[94m626[0m [91m- [0m        SystemTime::new(self.stat.[91mst_atime[0m as i64, self.stat.st_atime_nsec as i64)
+[1m[94m626[0m [92m+ [0m        SystemTime::new(self.stat.[92mst_atim[0m as i64, self.stat.st_atime_nsec as i64)
+    [1m[94m|[0m
+
+[1m[91merror[E0609][0m[1m: no field `st_atime_nsec` on type `stat`[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/fs/unix.rs:626:62
+    [1m[94m|[0m
+[1m[94m626[0m [1m[94m|[0m [1m[94m...[0me as i64, self.stat.st_atime_nsec as i64)
+    [1m[94m|[0m                        [1m[91m^^^^^^^^^^^^^[0m [1m[91munknown field[0m
+    [1m[94m|[0m
+    [1m[94m= [0m[1mnote[0m: available fields are: `st_dev`, `st_ino`, `st_mode`, `st_nlink`, `st_uid` ... and 9 others
+
+[1m[91merror[E0425][0m[1m: cannot find function `fill_bytes` in this scope[0m
+   [1m[94m--> [0m/home/ubuntu/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/random/mod.rs:121:5
+    [1m[94m|[0m
+[1m[94m121[0m [1m[94m|[0m     fill_bytes(&mut buf);
+    [1m[94m|[0m     [1m[91m^^^^^^^^^^[0m [1m[91mnot found in this scope[0m
+
+[1mSome errors have detailed explanations: E0422, E0425, E0432, E0433, E0531, E0599, E0609.[0m
+[1mFor more information about an error, try `rustc --explain E0422`.[0m
+[1m[91merror[0m: could not compile `std` (lib) due to 162 previous errors

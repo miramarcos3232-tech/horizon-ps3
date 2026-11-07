@@ -1,0 +1,6 @@
+make: Entering directory '/home/ubuntu/work/horizon-ps3-continuation-2026-11-07/ports/ps3'
+cargo +nightly check -Z build-std=core,alloc --manifest-path libc-check/Cargo.toml --target powerpc64-sony-ps3
+[1m[92m    Checking[0m libc v0.2.190 (/home/ubuntu/work/horizon-ps3-continuation-2026-11-07/third_party/libc)
+[1m[92m    Checking[0m horizon-ps3-libc-check v0.1.0 (/home/ubuntu/work/horizon-ps3-continuation-2026-11-07/ports/ps3/libc-check)
+[1m[92m    Finished[0m `dev` profile [unoptimized + debuginfo] target(s) in 0.16s
+make: Leaving directory '/home/ubuntu/work/horizon-ps3-continuation-2026-11-07/ports/ps3'
